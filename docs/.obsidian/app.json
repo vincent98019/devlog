@@ -1,0 +1,11 @@
+{
+  "attachmentFolderPath": "./assets/",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "docs",
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
+}

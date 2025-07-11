@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "3fd7d9ee4fc0db5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "da986d55c331703d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18dc4ee1aca88471",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Spring/assets/SpringAOP/1bbfbf7fa47e1550d73d4397f2f36d8b_MD5.png"
+              },
+              "icon": "lucide-image",
+              "title": "1bbfbf7fa47e1550d73d4397f2f36d8b_MD5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed5d072717338fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e4d5efef354bf73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64a8cf59ac4add1f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2193216b2f7d4b0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "166845b9818620fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5
+  },
+  "right": {
+    "id": "8ace1c1807b485f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "da99760a3fd6e86f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68ae46b7aac661cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Spring/Spring概述.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Spring概述 的反向链接列表"
+            }
+          },
+          {
+            "id": "521224fbbefbb8d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Spring/Spring概述.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Spring概述 的出链列表"
+            }
+          },
+          {
+            "id": "5a166e9da201cca0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e86e47b0014ac3bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Spring/Spring概述.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Spring概述 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+    }
+  },
+  "active": "18dc4ee1aca88471",
+  "lastOpenFiles": [
+    "Spring/Spring概述.md",
+    "intro.md",
+    "Spring/Spring事务管理.md",
+    "docs/Spring/Spring事务管理.md",
+    "docs/Spring/Spring概述.md",
+    "docs/Spring/assets/Spring概述/942153de260af78d022298cbe091d518_MD5.png",
+    "docs/Spring/assets/Spring概述",
+    "docs/tutorial-extras/manage-docs-versions.md",
+    "docs/Spring/assets/Spring事务管理/0557b37cdad7d7c82db9177c2531afe1_MD5.png",
+    "docs/Spring/assets/SpringAOP概述/e1bf99864e613cdce79f3ab1da342c35_MD5.png",
+    "docs/Spring/assets/SpringIOC注解/e04e84c7f4db311d9163f37422b91f5b_MD5.png",
+    "docs/Spring/assets/SpringAOP概述/21d7154faf8a64b9385cad52844c5806_MD5.png",
+    "docs/Spring/assets/SpringIOC-XML/a536ed9795782f913b5946e82964fc8b_MD5.png",
+    "docs/Spring/assets/SpringIOC-XML/981cd56b5edfb4a8954b46ccdd641615_MD5.png",
+    "docs/Spring/assets/SpringIOC-XML/97577268555b1cd2763997557f64a524_MD5.png",
+    "docs/Spring/assets/SpringIOC-XML/9104f0133e59b8b4361fc6588635545a_MD5.png",
+    "docs/Spring/assets/SpringAOP/fbe744ead35dcace782edcbd4d65f2fd_MD5.png",
+    "docs/Spring/assets/Spring事务管理",
+    "docs/Spring/assets/SpringIOC注解",
+    "docs/Spring/assets/SpringIOC-XML",
+    "docs/Spring/assets/SpringAOP概述",
+    "docs/Spring/assets/SpringAOP",
+    "docs/Spring/assets",
+    "docs/Spring/SpringAOP.md",
+    "docs/Spring/SpringIOC注解.md",
+    "docs/Spring/SpringIOC-XML.md",
+    "docs/Spring/SpringAOP概述.md",
+    "docs/Spring",
+    "docs/tutorial-extras/assets/manage-docs-versions",
+    "docs/tutorial-extras/assets",
+    "docs/intro.md"
+  ]
+}
