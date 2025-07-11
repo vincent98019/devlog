@@ -15,15 +15,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://vlon.cc',
+  url: 'https://Vincent98019.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/devlog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Vincent98019', // Usually your GitHub org/user name.
+  projectName: 'devlog', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +44,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/Vincent98019/devlog/',
+            'https://github.com/Vincent98019/devlog/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +53,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/Vincent98019/devlog/',
+            'https://github.com/Vincent98019/devlog/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
