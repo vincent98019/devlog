@@ -11,12 +11,14 @@
             "id": "18dc4ee1aca88471",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Spring/assets/SpringAOP/1bbfbf7fa47e1550d73d4397f2f36d8b_MD5.png"
+                "file": "Spring/SpringMVC/SpringMVC请求.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "1bbfbf7fa47e1550d73d4397f2f36d8b_MD5"
+              "icon": "lucide-file",
+              "title": "SpringMVC请求"
             }
           }
         ]
@@ -169,7 +171,12 @@
   },
   "active": "18dc4ee1aca88471",
   "lastOpenFiles": [
+    "Spring/SpringMVC/SpringMVCRESTful.md",
+    "Spring/SpringMVC/SpringMVCDispatcherServlet.md",
+    "Spring/SpringMVC/assets/SpringMVC请求",
+    "Spring/SpringMVC/SpringMVC DispatcherServlet.md",
     "Spring/Spring概述.md",
+    "Spring/assets/SpringAOP/1bbfbf7fa47e1550d73d4397f2f36d8b_MD5.png",
     "intro.md",
     "Spring/Spring事务管理.md",
     "docs/Spring/Spring事务管理.md",
@@ -185,7 +192,6 @@
     "docs/Spring/assets/SpringIOC-XML/981cd56b5edfb4a8954b46ccdd641615_MD5.png",
     "docs/Spring/assets/SpringIOC-XML/97577268555b1cd2763997557f64a524_MD5.png",
     "docs/Spring/assets/SpringIOC-XML/9104f0133e59b8b4361fc6588635545a_MD5.png",
-    "docs/Spring/assets/SpringAOP/fbe744ead35dcace782edcbd4d65f2fd_MD5.png",
     "docs/Spring/assets/Spring事务管理",
     "docs/Spring/assets/SpringIOC注解",
     "docs/Spring/assets/SpringIOC-XML",
@@ -198,7 +204,6 @@
     "docs/Spring/SpringAOP概述.md",
     "docs/Spring",
     "docs/tutorial-extras/assets/manage-docs-versions",
-    "docs/tutorial-extras/assets",
     "docs/intro.md"
   ]
 }
