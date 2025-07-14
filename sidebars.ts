@@ -46,6 +46,16 @@ const sidebars: SidebarsConfig = {
         },
     ],
 
+    gitSidebar: [ {
+        type: 'category',
+        label: 'Git',
+        items: [
+            'Git/Git基础命令',
+            'Git/Git分支',
+            'Git/Git远程仓库',
+        ],
+    },]
+
 };
 
 export default sidebars;
