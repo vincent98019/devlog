@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Vincent’s DevLog Blog</title>
-        <link>https://Vincent98019.github.io/devlog/blog</link>
+        <link>https://vincent98019.github.io/devlog/blog</link>
         <description>Vincent’s DevLog Blog</description>
         <lastBuildDate>Fri, 11 Jul 2025 07:20:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>zh</language>
         <item>
             <title><![CDATA[IO流/JavaIO异常的处理]]></title>
-            <link>https://Vincent98019.github.io/devlog/blog/IO流/JavaIO异常的处理</link>
-            <guid>https://Vincent98019.github.io/devlog/blog/IO流/JavaIO异常的处理</guid>
+            <link>https://vincent98019.github.io/devlog/blog/IO流/JavaIO异常的处理</link>
+            <guid>https://vincent98019.github.io/devlog/blog/IO流/JavaIO异常的处理</guid>
             <pubDate>Fri, 11 Jul 2025 07:20:28 GMT</pubDate>
             <description><![CDATA[JDK7前处理]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jdk7前处理">JDK7前处理<a href="https://vincent98019.github.io/devlog/blog/IO%E6%B5%81/JavaIO%E5%BC%82%E5%B8%B8%E7%9A%84%E5%A4%84%E7%90%86#jdk7%E5%89%8D%E5%A4%84%E7%90%86" class="hash-link" aria-label="JDK7前处理的直接链接" title="JDK7前处理的直接链接">​</a></h2>
@@ -28,8 +28,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://Vincent98019.github.io/devlog/blog/welcome</link>
-            <guid>https://Vincent98019.github.io/devlog/blog/welcome</guid>
+            <link>https://vincent98019.github.io/devlog/blog/welcome</link>
+            <guid>https://vincent98019.github.io/devlog/blog/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
@@ -51,8 +51,8 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://Vincent98019.github.io/devlog/blog/mdx-blog-post</link>
-            <guid>https://Vincent98019.github.io/devlog/blog/mdx-blog-post</guid>
+            <link>https://vincent98019.github.io/devlog/blog/mdx-blog-post</link>
+            <guid>https://vincent98019.github.io/devlog/blog/mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
@@ -65,8 +65,8 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://Vincent98019.github.io/devlog/blog/long-blog-post</link>
-            <guid>https://Vincent98019.github.io/devlog/blog/long-blog-post</guid>
+            <link>https://vincent98019.github.io/devlog/blog/long-blog-post</link>
+            <guid>https://vincent98019.github.io/devlog/blog/long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -92,8 +92,8 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://Vincent98019.github.io/devlog/blog/first-blog-post</link>
-            <guid>https://Vincent98019.github.io/devlog/blog/first-blog-post</guid>
+            <link>https://vincent98019.github.io/devlog/blog/first-blog-post</link>
+            <guid>https://vincent98019.github.io/devlog/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
