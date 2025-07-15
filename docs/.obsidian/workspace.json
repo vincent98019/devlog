@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git远程仓库.md",
+                "file": "Linux/Linux任务调度.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git远程仓库"
+              "title": "Linux任务调度"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git远程仓库.md",
+                "file": "Linux/Linux任务调度.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git远程仓库 的大纲"
+              "title": "Linux任务调度 的大纲"
             }
           }
         ],
@@ -171,46 +171,51 @@
   },
   "active": "18dc4ee1aca88471",
   "lastOpenFiles": [
-    "Git/assets/Git远程仓库",
+    "Linux/Linux网络配置.md",
+    "Linux/Linux组管理.md",
+    "Linux/Linux vi和vim编辑器.md",
+    "tutorial-basics/deploy-your-site.md",
+    "Linux/assets/Linux网络配置/f2e859de87eb20127ff4e5f0e10e23a8_MD5.png",
+    "Linux/assets/Linux网络配置/cb4c755b6c6d782f60837ba398bbe0a6_MD5.png",
+    "Linux/assets/Linux网络配置/c3a658507236148dadaaf21fd695f382_MD5.png",
+    "Linux/assets/Linux网络配置/b7c3206789dc921f527d3e5be85e1b25_MD5.png",
+    "Linux/assets/Linux网络配置/b7135e8a6f934b6121e2c333179450bb_MD5.png",
+    "Linux/assets/Linux网络配置/a8cf6d5825add8217b15f7bbc7075c15_MD5.png",
+    "Linux/assets/Linux网络配置/68fee6b8de690b35e06db1230b4541ab_MD5.png",
+    "Linux/assets/Linux网络配置/679d3c1505970f00b82378f45927844c_MD5.png",
+    "Linux/assets/Linux网络配置/62e7f01bda6dba3ef8e055e326abe799_MD5.png",
+    "Linux/assets/Linux网络配置/6093a769b1a8de21e43ce3559958aeef_MD5.png",
+    "Linux/assets/Linux网络配置",
+    "Linux/assets/Linux组管理",
+    "Linux/assets/Linux磁盘管理",
+    "Linux/assets/Linux目录结构",
+    "Linux/assets/Linux用户管理",
+    "Linux/assets/Linux权限管理",
+    "Linux/assets/Linux常用命令",
+    "Linux/assets/Linux vi和vim编辑器",
+    "Linux/assets/Linux任务调度",
+    "Linux/assets",
+    "Linux/Linux磁盘管理.md",
+    "Linux/Linux目录结构.md",
+    "Linux/Linux用户管理.md",
+    "Linux/Linux权限管理.md",
+    "Linux/Linux常用命令.md",
+    "Linux/Linux任务调度.md",
+    "tutorial-basics/create-a-page.md",
+    "tutorial-basics/create-a-blog-post.md",
+    "tutorial-basics/congratulations.md",
+    "intro.md",
+    "Git/Git远程仓库.md",
     "Git/Git基础命令.md",
     "Git/Git分支.md",
-    "Git/assets/Git分支/d6c510d751cbec1dd0fc619fcc7d3a90_MD5.png",
-    "Git/assets/Git分支/9674c7aed12eaefc38560bf05f782c93_MD5.png",
     "Flutter/未命名 1.md",
-    "Git/assets/Git基础命令/11d5a7c3eeb21a6e3221e953dc5ad877_MD5.png",
-    "Git/assets/Git基础命令/f7a1d6897b1aaae3b192ee3096b362f6_MD5.png",
-    "Git/assets/Git基础命令/9a8212bb58c5ecce103ad1cf48007bae_MD5.png",
-    "Git/assets/Git基础命令/8220fbd9103efa17c9dc3fb25a820082_MD5.png",
-    "Git/assets/Git基础命令",
-    "Git/assets/Git分支",
-    "Git/assets",
-    "Git/Git远程仓库.md",
-    "Git",
-    "Java",
     "Flutter/排版组件.md",
     "Spring/SpringMVC/SpringMVC请求.md",
-    "Flutter",
     "Spring/SpringMVC/SpringMVCRESTful.md",
     "Spring/SpringMVC/SpringMVCDispatcherServlet.md",
-    "Spring/SpringMVC/assets/SpringMVC请求",
     "Spring/SpringMVC/SpringMVC DispatcherServlet.md",
     "Spring/Spring概述.md",
-    "Spring/assets/SpringAOP/1bbfbf7fa47e1550d73d4397f2f36d8b_MD5.png",
-    "intro.md",
     "Spring/Spring事务管理.md",
-    "docs/Spring/Spring事务管理.md",
-    "docs/Spring/Spring概述.md",
-    "docs/Spring/assets/Spring概述/942153de260af78d022298cbe091d518_MD5.png",
-    "docs/Spring/assets/Spring概述",
-    "docs/tutorial-extras/manage-docs-versions.md",
-    "docs/Spring/assets/Spring事务管理/0557b37cdad7d7c82db9177c2531afe1_MD5.png",
-    "docs/Spring/assets/SpringAOP概述/e1bf99864e613cdce79f3ab1da342c35_MD5.png",
-    "docs/Spring/assets/Spring事务管理",
-    "docs/Spring/assets/SpringIOC注解",
-    "docs/Spring/SpringAOP.md",
-    "docs/Spring/SpringIOC注解.md",
-    "docs/Spring/SpringIOC-XML.md",
-    "docs/Spring/SpringAOP概述.md",
-    "docs/intro.md"
+    "docs/Spring/Spring事务管理.md"
   ]
 }

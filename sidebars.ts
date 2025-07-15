@@ -54,7 +54,23 @@ const sidebars: SidebarsConfig = {
             'Git/Git分支',
             'Git/Git远程仓库',
         ],
-    },]
+    },],
+
+    linuxSidebar: [ {
+        type: 'category',
+        label: 'Linux',
+        items: [
+            'Linux/Linux目录结构',
+            'Linux/Linux常用命令',
+            'Linux/Linux vi和vim编辑器',
+            'Linux/Linux用户管理',
+            'Linux/Linux组管理',
+            'Linux/Linux权限管理',
+            'Linux/Linux任务调度',
+            'Linux/Linux磁盘管理',
+            'Linux/Linux网络配置',
+        ],
+    },],
 
 };
 

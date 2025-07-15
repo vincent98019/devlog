@@ -15,14 +15,14 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://Vincent98019.github.io',
+    url: 'https://vincent98019.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/devlog/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Vincent98019', // Usually your GitHub org/user name.
+    organizationName: 'vincent98019', // Usually your GitHub org/user name.
     projectName: 'devlog', // Usually your repo name.
     trailingSlash: false,
 
@@ -44,7 +44,7 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     editUrl:
-                        'https://github.com/Vincent98019/devlog/tree/main/',
+                        'https://github.com/vincent98019/devlog/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -53,7 +53,7 @@ const config: Config = {
                         xslt: true,
                     },
                     editUrl:
-                        'https://github.com/Vincent98019/devlog/tree/main/',
+                        'https://github.com/vincent98019/devlog/tree/main/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -87,7 +87,7 @@ const config: Config = {
                     // type: 'docSidebar',
                     // sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: '工具',
+                    label: '工具｜部署',
                     items: [
                         {
                             type: 'docSidebar',
@@ -96,9 +96,15 @@ const config: Config = {
                         },
                     ]
                 },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'linuxSidebar',
+                    position: 'left',
+                    label: 'Linux',
+                },
                 // {to: '/blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/Vincent98019/devlog',
+                    href: 'https://github.com/vincent98019/devlog',
                     label: 'GitHub',
                     position: 'right',
                 },
