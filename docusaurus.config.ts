@@ -33,8 +33,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "zh",
-    locales: ["zh"],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 
   presets: [
@@ -79,14 +79,16 @@ const config: Config = {
           label: "Java系列",
           items: [
             {
-              type: "docSidebar",
-              sidebarId: "javaSidebar",
-              label: "Java基础",
+              label: "基础",
+              to: "/docs/Java/基础/Java概述",
             },
             {
-              type: "docSidebar",
-              sidebarId: "springSidebar",
+              label: "面向对象",
+              to: "/docs/Java/基础/Java概述",
+            },
+            {
               label: "Spring",
+              to: "/docs/Spring/Spring/Spring概述",
             },
             {
               label: "SpringMVC",
@@ -123,48 +125,74 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Tutorial',
-      //         to: '/docs/intro',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-      //       {
-      //         label: 'Stack Overflow',
-      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-      //       },
-      //       {
-      //         label: 'Discord',
-      //         href: 'https://discordapp.com/invite/docusaurus',
-      //       },
-      //       {
-      //         label: 'X',
-      //         href: 'https://x.com/docusaurus',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'More',
-      //     items: [
-      //       {
-      //         label: 'Blog',
-      //         to: '/blog',
-      //       },
-      //       {
-      //         label: 'GitHub',
-      //         href: 'https://github.com/facebook/docusaurus',
-      //       },
-      //     ],
-      //   },
-      // ],
-      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      links: [
+        {
+          title: "友情链接",
+          items: [
+            // {
+            //   label: "Tutorial",
+            //   to: "/docs/intro",
+            // },
+            {
+              label: "比蜂科技",
+              href: "https://beefic.com",
+            },
+          ],
+        },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Stack Overflow',
+        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //       },
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://discordapp.com/invite/docusaurus',
+        //       },
+        //       {
+        //         label: 'X',
+        //         href: 'https://x.com/docusaurus',
+        //       },
+        //     ],
+        //   },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/facebook/docusaurus",
+        //     },
+        //   ],
+        // },
+
+        {
+          items: [
+            {
+              html: `
+            <div style="text-align: center; font-size: 14px; line-height: 1.6;">
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2022027766号-4</a>
+            </div>
+          `,
+            },
+            //    {
+            //     html: `
+            //   <div style="text-align: center; font-size: 14px; line-height: 1.6;">
+            //     <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502000000" target="_blank" rel="noopener">
+            //       <img src="/img/beian-icon.png" style="width: 16px; vertical-align: -2px;" />
+            //       粤公网安备 44030502000000号
+            //     </a>
+            //   </div>
+            // `,
+            //   },
+          ],
+        },
+      ],
+      copyright: `Copyright © 2025 vincent98019. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

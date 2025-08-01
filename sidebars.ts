@@ -18,10 +18,10 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
 
-    javaSidebar: [
+  javaSidebar: [
     {
       type: "category",
-      label: "Java基础",
+      label: "基础",
       items: [
         "Java/基础/Java概述",
         "Java/基础/Java安装—Win10",
@@ -35,7 +35,31 @@ const sidebars: SidebarsConfig = {
         "Java/基础/Java数组",
       ],
     },
-   
+    {
+      type: "category",
+      label: "面向对象",
+      items: [
+        "Java/面向对象/Java类与对象",
+        "Java/面向对象/Java方法",
+        "Java/面向对象/Java包",
+        "Java/面向对象/Java权限修饰符",
+        "Java/面向对象/Java封装",
+        "Java/面向对象/Java继承",
+        "Java/面向对象/Java多态",
+        "Java/面向对象/Java关键字super",
+        "Java/面向对象/Java关键字static",
+        "Java/面向对象/Java代码块",
+        "Java/面向对象/Java关键字final",
+        "Java/面向对象/Java抽象abstract",
+        "Java/面向对象/Java接口interface",
+        "Java/面向对象/Java内部类",
+        "Java/面向对象/Java枚举Enum",
+        "Java/面向对象/Java注解",
+        "Java/面向对象/Java异常",
+        "Java/面向对象/Java泛型",
+        "Java/面向对象/Java反射",
+      ],
+    },
   ],
 
   springSidebar: [
