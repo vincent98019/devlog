@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 自定义导航分割线 */
+.navbar-divider {
+  pointer-events: none;
+  color: #888;
+  font-size: 20px;
+  margin: 0 10px;
+}
