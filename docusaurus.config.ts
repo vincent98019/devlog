@@ -33,8 +33,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
+    defaultLocale: "zh",
+    locales: ["zh"],
   },
 
   presets: [
@@ -84,7 +84,7 @@ const config: Config = {
             },
             {
               label: "面向对象",
-              to: "/docs/Java/基础/Java概述",
+              to: "/docs/Java/面向对象/Java类与对象",
             },
             {
               label: "Spring",
