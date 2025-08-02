@@ -106,7 +106,7 @@ enum Season2 {
 
 ### ① 当使用enum关键字创建一个枚举类时，默认会继承Enum类
 
-通过 [`javap`命令](javap命令使用.md) 将上面的Season2枚举类反编译，可以看到Season2类是一个final修饰的类，同时继承了`java.lang.Enum`类。
+通过 [`javap`命令](../常用工具/javap命令使用.md) 将上面的Season2枚举类反编译，可以看到Season2类是一个final修饰的类，同时继承了`java.lang.Enum`类。
 
 同时
 

@@ -79,12 +79,20 @@ const config: Config = {
           label: "Java系列",
           items: [
             {
-              label: "基础",
+              label: "Java基础",
               to: "/docs/Java/基础/Java概述",
             },
             {
-              label: "面向对象",
+              label: "Java面向对象",
               to: "/docs/Java/面向对象/Java类与对象",
+            },
+            {
+              label: "Java常用类",
+              to: "/docs/Java/常用类/Java方法main",
+            },
+            {
+              label: "Java集合",
+              to: "/docs/Java/集合/JavaCollection",
             },
             {
               label: "Spring",

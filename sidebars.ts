@@ -60,6 +60,38 @@ const sidebars: SidebarsConfig = {
         "Java/面向对象/Java反射",
       ],
     },
+    {
+      type: "category",
+      label: "常用类",
+      items: [
+        "Java/常用类/Java方法main",
+        "Java/常用类/Java包装类",
+        "Java/常用类/Java类Object",
+        "Java/常用类/Java类String",
+        "Java/常用类/Java类StringBuffer和StringBuilder",
+        "Java/常用类/Java类Math",
+        "Java/常用类/Java类Arrays",
+        "Java/常用类/Java类System",
+        "Java/常用类/Java类Biglnteger和BigDecimal",
+        "Java/常用类/Java日期时间类",
+        "Java/常用类/Java正则表达式",
+        "Java/常用类/Java类Pattern和Matcher",
+      ],
+    },
+    {
+      type: "category",
+      label: "集合",
+      items: [
+        "Java/集合/JavaCollection",
+        "Java/集合/JavaList",
+        "Java/集合/JavaSet",
+        "Java/集合/JavaMap",
+        "Java/集合/JavaProperties",
+        "Java/集合/JavaTreeSet和TreeMap",
+        "Java/集合/JavaCollections",
+        "Java/集合/JavaComparable和Comparator",
+      ],
+    },
   ],
 
   springSidebar: [
