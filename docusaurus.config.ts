@@ -95,6 +95,14 @@ const config: Config = {
               to: "/docs/Java/集合/JavaCollection",
             },
             {
+              label: "JavaIO流",
+              to: "/docs/Java/IO流/Java类File",
+            },
+            {
+              label: "Java网络编程",
+              to: "/docs/Java/网络编程/Java网络通信",
+            },
+            {
               label: "Spring",
               to: "/docs/Spring/Spring/Spring概述",
             },

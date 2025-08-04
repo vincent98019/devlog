@@ -2,7 +2,6 @@
 ## JDK7前处理
 
 使用 `try...catch...finally` 代码块，处理异常部分。
-
 ```java
 public class HandleException1 {
     public static void main(String[] args) {
@@ -33,20 +32,13 @@ public class HandleException1 {
 还可以使用JDK7优化后的 `try-with-resource` 语句，该语句确保了每个资源在语句结束时关闭。所谓的资源（resource）是指在程序完成后，必须关闭的对象。
 
 **格式：**
-
-[//]: # (```java)
-
-[//]: # (try &#40;创建流对象语句，如果多个,使用';'隔开&#41; {)
-
-[//]: # (    // 读写数据)
-
-[//]: # (} catch &#40;IOException e&#41; {)
-
-[//]: # (    e.printStackTrace&#40;&#41;;)
-
-[//]: # (})
-
-[//]: # (```)
+```java
+try (创建流对象语句，如果多个,使用';'隔开) {
+    // 读写数据
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
 
 ```java
 public class HandleException2 {

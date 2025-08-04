@@ -92,6 +92,29 @@ const sidebars: SidebarsConfig = {
         "Java/集合/JavaComparable和Comparator",
       ],
     },
+    {
+      type: "category",
+      label: "IO流",
+      items: [
+        "Java/IO流/Java类File",
+        "Java/IO流/Java字节流",
+        "Java/IO流/Java字符流",
+        "Java/IO流/Java缓冲流",
+        "Java/IO流/JavaIO异常的处理",
+        "Java/IO流/Java对象流&序列化",
+        "Java/IO流/Java转换流&字符集",
+        "Java/IO流/Java打印流&标准输入输出",
+      ],
+    },
+    {
+      type: "category",
+      label: "网络编程",
+      items: [
+        "Java/网络编程/Java网络通信",
+        "Java/网络编程/Java类Socket",
+        "Java/网络编程/JavaTCP文件上传",
+      ],
+    },
   ],
 
   springSidebar: [
