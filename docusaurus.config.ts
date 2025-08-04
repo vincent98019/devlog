@@ -103,6 +103,10 @@ const config: Config = {
               to: "/docs/Java/网络编程/Java网络通信",
             },
             {
+              label: "Java并发编程",
+              to: "/docs/Java/并发编程/Java进程与线程",
+            },
+            {
               label: "Spring",
               to: "/docs/Spring/Spring/Spring概述",
             },
@@ -191,7 +195,7 @@ const config: Config = {
             {
               html: `
             <div style="text-align: center; font-size: 14px; line-height: 1.6;">
-              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2022027766号-4</a>
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2022027766号</a>
             </div>
           `,
             },
