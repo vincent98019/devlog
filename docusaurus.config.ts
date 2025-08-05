@@ -107,12 +107,24 @@ const config: Config = {
               to: "/docs/Java/并发编程/Java进程与线程",
             },
             {
+              label: "JavaJVM",
+              to: "/docs/Java/JVM/JVM类文件结构",
+            },
+            {
+              label: "Java新特性",
+              to: "/docs/Java/新特性/Java8/Java8 Stream流",
+            },
+            {
               label: "Spring",
               to: "/docs/Spring/Spring/Spring概述",
             },
             {
               label: "SpringMVC",
               to: "/docs/Spring/SpringMVC/SpringMVC入门",
+            },
+            {
+              label: "错误集锦",
+              to: "/docs/Java/错误集锦/编码GBK的不可映射字符",
             },
           ],
         },

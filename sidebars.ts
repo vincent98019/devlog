@@ -138,6 +138,45 @@ const sidebars: SidebarsConfig = {
         "Java/并发编程/同步模式：犹豫模式",
       ],
     },
+    {
+      type: "category",
+      label: "JVM",
+      items: [
+        "Java/JVM/JVM类文件结构",
+        "Java/JVM/JVM字节码指令",
+        "Java/JVM/JVM编译期处理",
+        "Java/JVM/JVM栈",
+        "Java/JVM/JVM堆",
+        "Java/JVM/JVM方法区",
+        "Java/JVM/JVM直接内存",
+        "Java/JVM/JVM垃圾回收",
+        "Java/JVM/JVM类加载阶段",
+        "Java/JVM/JVM类加载器",
+        "Java/JVM/JVM运行期优化",
+      ],
+    },
+    {
+      type: "category",
+      label: "新特性",
+      items: [
+        {
+          type: "category",
+          label: "Java8",
+          items: [
+            "Java/新特性/Java8/Java8 Stream流",
+            "Java/新特性/Java8/Java8 Optional类",
+            "Java/新特性/Java8/Java8 函数式接口",
+            "Java/新特性/Java8/Java8 方法引用",
+            "Java/新特性/Java8/Java8 Lambda表达式",
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "错误集锦",
+      items: ["Java/错误集锦/编码GBK的不可映射字符"],
+    },
   ],
 
   springSidebar: [
