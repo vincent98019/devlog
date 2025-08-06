@@ -157,6 +157,24 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "JavaWeb",
+      items: [
+        "Java/JavaWeb/HTTP",
+        "Java/JavaWeb/XML",
+        "Java/JavaWeb/Java XML",
+        "Java/JavaWeb/Java Tomcat",
+        "Java/JavaWeb/Java Servlet",
+        "Java/JavaWeb/Java JSP",
+        "Java/JavaWeb/Java Request",
+        "Java/JavaWeb/Java Response",
+        "Java/JavaWeb/Java Cookie",
+        "Java/JavaWeb/Java Session",
+        "Java/JavaWeb/Java Filter",
+        "Java/JavaWeb/Java Listener",
+      ],
+    },
+    {
+      type: "category",
       label: "新特性",
       items: [
         {
@@ -170,6 +188,16 @@ const sidebars: SidebarsConfig = {
             "Java/新特性/Java8/Java8 Lambda表达式",
           ],
         },
+      ],
+    },
+    {
+      type: "category",
+      label: "常用工具｜框架",
+      items: [
+        "Java/常用工具/JDBC",
+        "Java/常用工具/Jedis",
+        "Java/常用工具/Lombok",
+        "Java/常用工具/javap命令使用",
       ],
     },
     {
@@ -203,6 +231,7 @@ const sidebars: SidebarsConfig = {
         "Spring/SpringMVC/SpringMVCDispatcherServlet",
         "Spring/SpringMVC/SpringMVC请求",
         "Spring/SpringMVC/SpringMVC响应",
+        "Spring/SpringMVC/SpringMVCHttpMessageConverter",
       ],
     },
   ],

@@ -111,8 +111,16 @@ const config: Config = {
               to: "/docs/Java/JVM/JVM类文件结构",
             },
             {
+              label: "JavaWeb",
+              to: "/docs/Java/JavaWeb/HTTP",
+            },
+            {
               label: "Java新特性",
               to: "/docs/Java/新特性/Java8/Java8 Stream流",
+            },
+            {
+              label: "Java常用工具｜框架",
+              to: "/docs/Java/常用工具/JDBC",
             },
             {
               label: "Spring",
