@@ -232,15 +232,32 @@ const sidebars: SidebarsConfig = {
         "Spring/SpringMVC/SpringMVC请求",
         "Spring/SpringMVC/SpringMVC响应",
         "Spring/SpringMVC/SpringMVCHttpMessageConverter",
+        "Spring/SpringMVC/SpringMVC拦截器",
+        "Spring/SpringMVC/SpringMVC异常处理器",
       ],
     },
   ],
 
-  gitSidebar: [
+  toolSidebar: [
     {
       type: "category",
       label: "Git",
-      items: ["Git/Git基础命令", "Git/Git分支", "Git/Git远程仓库"],
+      items: [
+        "Tool/Git/Git基础命令",
+        "Tool/Git/Git分支",
+        "Tool/Git/Git远程仓库",
+      ],
+    },
+    {
+      type: "category",
+      label: "Docker",
+      items: [
+        "Tool/Docker/Docker安装与启动",
+        "Tool/Docker/Docker镜像操作",
+        "Tool/Docker/Docker容器操作",
+        "Tool/Docker/Docker数据卷操作",
+        "Tool/Docker/DockerCompose",
+      ],
     },
   ],
 

@@ -137,15 +137,16 @@ const config: Config = {
           ],
         },
         {
-          // type: 'docSidebar',
-          // sidebarId: 'tutorialSidebar',
           position: "left",
-          label: "工具｜部署",
+          label: "工具|部署",
           items: [
             {
-              type: "docSidebar",
-              sidebarId: "gitSidebar",
               label: "Git",
+              to: "/docs/Tool/Git/Git基础命令",
+            },
+            {
+              label: "Docker",
+              to: "/docs/Tool/Docker/Docker安装与启动",
             },
           ],
         },
