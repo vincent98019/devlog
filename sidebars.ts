@@ -234,6 +234,8 @@ const sidebars: SidebarsConfig = {
         "Spring/SpringMVC/SpringMVCHttpMessageConverter",
         "Spring/SpringMVC/SpringMVC拦截器",
         "Spring/SpringMVC/SpringMVC异常处理器",
+        "Spring/SpringMVC/SpringMVC注解配置",
+        "Spring/SpringMVC/SpringMVC域对象共享数据",
       ],
     },
   ],

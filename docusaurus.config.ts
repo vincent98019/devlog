@@ -156,7 +156,7 @@ const config: Config = {
           position: "left",
           label: "Linux",
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: "https://github.com/vincent98019/devlog",
           label: "GitHub",
