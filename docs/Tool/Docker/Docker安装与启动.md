@@ -135,6 +135,50 @@ sudo add-apt-repository "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/li
 apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
+
+
+#### Ubuntu 24.04 (noble)
+
+新版本安装方式和老版本不太一样：
+
+1. **先移除旧的 Docker 源配置**（避免冲突）：
+
+```bash
+sudo rm -f /etc/apt/sources.list.d/docker.list
+sudo rm -f /etc/apt/sources.list.d/docker-ce.list
+```
+
+2. **添加 Docker 官方源**（支持 noble）：
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg
+
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | \
+  sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
+  https://download.docker.com/linux/ubuntu noble stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+3. **更新 apt 缓存：**
+
+```bash
+sudo apt-get update
+```
+
+4. **安装 Docker CE**：
+
+```bash
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+---
+
 **配置用户组（可选）：**
 
 > 默认情况下，只有root用户和docker组的用户才能运行Docker命令。可以将当前用户添加到docker组，以避免每次使用Docker时都需要使用sudo。命令如下：
@@ -144,6 +188,8 @@ sudo usermod -aG docker $USER
 ```
 
 > 重新登录使更改生效
+
+
 
 
 ## 启动&停止

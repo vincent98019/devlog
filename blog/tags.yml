@@ -5,12 +5,12 @@ ssh:
 
 linux:
   label: Linux
-  permalink: /linux
+  permalink: /Linux
 #   description: Hello tag description
 
-# docusaurus:
-#   label: Docusaurus
-#   permalink: /docusaurus
+frp:
+  label: FRP
+  permalink: /frp
 #   description: Docusaurus tag description
 
 # hola:

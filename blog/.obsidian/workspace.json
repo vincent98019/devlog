@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-08-22-服务器配置密钥登录/index.md",
+                "file": "Linux/内网穿透与 FRP 配置指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "内网穿透与 FRP 配置指南"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "836cdec520064123",
@@ -171,9 +172,12 @@
   },
   "active": "cf6473a8f0a86ec0",
   "lastOpenFiles": [
+    "Linux/服务器配置密钥登录.md",
+    "Linux/内网穿透与 FRP 配置指南.md",
+    "未命名.base",
+    "Linux",
     "2019-05-29-long-blog-post.md",
     "2019-05-28-first-blog-post.md",
-    "2025-08-22-服务器配置密钥登录/index.md",
     "2021-08-26-welcome/index.md",
     "2025-08-22-服务器配置密钥登录",
     "2021-08-26-welcome/docusaurus-plushie-banner.jpeg"
