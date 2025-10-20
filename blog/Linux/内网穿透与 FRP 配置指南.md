@@ -2,7 +2,7 @@
 slug: Linux/内网穿透与 FRP 配置指南
 title: 内网穿透与 FRP 配置指南
 authors: [vincent]
-tags: [frp, linux]
+tags: [linux]
 date: 2025-08-23
 ---
 

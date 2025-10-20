@@ -7,5 +7,6 @@
   "newFileFolderPath": "docs",
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "useTab": false
 }

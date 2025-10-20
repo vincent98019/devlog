@@ -1,19 +1,15 @@
-ssh:
-  label: SSH
-  permalink: /ssh
-#   description: Facebook tag description
-
 linux:
   label: Linux
-  permalink: /Linux
+  permalink: /linux
 #   description: Hello tag description
 
-frp:
-  label: FRP
-  permalink: /frp
-#   description: Docusaurus tag description
+software:
+   label: Software
+   permalink: /software
+#   description: Hola tag description
 
-# hola:
-#   label: Hola
-#   permalink: /hola
+
+windows:
+  label: Windows
+  permalink: /Windows
 #   description: Hola tag description

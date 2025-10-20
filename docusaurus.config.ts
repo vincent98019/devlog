@@ -1,5 +1,5 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
+import {themes as prismThemes} from "prism-react-renderer";
+import type {Config} from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -27,8 +27,11 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -83,18 +86,6 @@ const config: Config = {
               to: "/docs/Java/基础/Java概述",
             },
             {
-              label: "Java面向对象",
-              to: "/docs/Java/面向对象/Java类与对象",
-            },
-            {
-              label: "Java常用类",
-              to: "/docs/Java/常用类/Java方法main",
-            },
-            {
-              label: "Java集合",
-              to: "/docs/Java/集合/JavaCollection",
-            },
-            {
               label: "JavaIO流",
               to: "/docs/Java/IO流/Java类File",
             },
@@ -103,11 +94,11 @@ const config: Config = {
               to: "/docs/Java/网络编程/Java网络通信",
             },
             {
-              label: "Java并发编程",
+              label: "并发编程",
               to: "/docs/Java/并发编程/Java进程与线程",
             },
             {
-              label: "JavaJVM",
+              label: "JVM",
               to: "/docs/Java/JVM/JVM类文件结构",
             },
             {
@@ -123,17 +114,27 @@ const config: Config = {
               to: "/docs/Java/常用工具/JDBC",
             },
             {
-              label: "Spring",
+              label: "Spring全家桶",
               to: "/docs/Spring/Spring/Spring概述",
-            },
-            {
-              label: "SpringMVC",
-              to: "/docs/Spring/SpringMVC/SpringMVC入门",
             },
             {
               label: "错误集锦",
               to: "/docs/Java/错误集锦/编码GBK的不可映射字符",
             },
+          ],
+        },
+        {
+          position: "left",
+          label: "数据库",
+          items: [
+            {
+              label: "MySQL",
+              to: "/docs/Database/MySQL/MySQL操作数据库 DDL",
+            },
+            {
+              label: "Oracle",
+              to: "/docs/Database/Oracle/Oracle表管理",
+            }
           ],
         },
         {

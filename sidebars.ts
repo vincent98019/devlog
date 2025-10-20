@@ -1,4 +1,4 @@
-import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
+import type {SidebarsConfig} from "@docusaurus/plugin-content-docs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
 
-  javaSidebar: [
+  javaBaseSidebar: [
     {
       type: "category",
       label: "基础",
@@ -115,29 +115,7 @@ const sidebars: SidebarsConfig = {
         "Java/网络编程/JavaTCP文件上传",
       ],
     },
-    {
-      type: "category",
-      label: "并发编程",
-      items: [
-        "Java/并发编程/Java进程与线程",
-        "Java/并发编程/Java创建线程",
-        "Java/并发编程/Java线程常见方法",
-        "Java/并发编程/终止模式：两阶段终止模式",
-        "Java/并发编程/Java守护线程",
-        "Java/并发编程/Java线程的生命周期",
-        "Java/并发编程/Java关键字synchronized",
-        "Java/并发编程/Java原理synchronized",
-        "Java/并发编程/Java原理wait&notify&join",
-        "Java/并发编程/同步模式：保护性暂停",
-        "Java/并发编程/异步模式：生产者&消费者",
-        "Java/并发编程/Java原理park&unpark",
-        "Java/并发编程/Java锁的活跃性",
-        "Java/并发编程/JavaReentrantLock",
-        "Java/并发编程/同步模式：顺序控制",
-        "Java/并发编程/Java内存模型",
-        "Java/并发编程/同步模式：犹豫模式",
-      ],
-    },
+
     {
       type: "category",
       label: "JVM",
@@ -207,6 +185,37 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
+  javaJucSidebar: [
+    {
+      type: "category",
+      label: "并发编程",
+      items: [
+        "Java/并发编程/Java进程与线程",
+        "Java/并发编程/Java创建线程",
+        "Java/并发编程/Java线程常见方法",
+        "Java/并发编程/终止模式：两阶段终止模式",
+        "Java/并发编程/Java守护线程",
+        "Java/并发编程/Java线程的生命周期",
+        "Java/并发编程/Java关键字synchronized",
+        "Java/并发编程/Java原理synchronized",
+        "Java/并发编程/Java原理wait&notify&join",
+        "Java/并发编程/同步模式：保护性暂停",
+        "Java/并发编程/异步模式：生产者&消费者",
+        "Java/并发编程/Java原理park&unpark",
+        "Java/并发编程/Java锁的活跃性",
+        "Java/并发编程/JavaReentrantLock",
+        "Java/并发编程/同步模式：顺序控制",
+        "Java/并发编程/Java内存模型",
+        "Java/并发编程/同步模式：犹豫模式",
+        "Java/并发编程/CAS与volatile",
+        "Java/并发编程/JUC的原子类",
+        "Java/并发编程/JavaLongAdder原理",
+        "Java/并发编程/JavaUnsafe类",
+      ],
+    },
+  ],
+
+
   springSidebar: [
     {
       type: "category",
@@ -238,6 +247,49 @@ const sidebars: SidebarsConfig = {
         "Spring/SpringMVC/SpringMVC域对象共享数据",
       ],
     },
+  ],
+
+  mysqlSidebar: [
+    {
+      type: "category",
+      label: "MySQL",
+      items: [
+        "Database/MySQL/关系型与非关系型数据库",
+        "Database/MySQL/MySQL安装—CentOS",
+        "Database/MySQL/MySQL安装—Win10",
+        "Database/MySQL/MySQL操作数据库 DDL",
+        "Database/MySQL/MySQL操作表 DDL",
+        "Database/MySQL/MySQL操作数据 DML",
+        "Database/MySQL/MySQL基本查询 DQL",
+        "Database/MySQL/MySQL条件查询 DQL",
+        "Database/MySQL/MySQL多表查询 DQL",
+        "Database/MySQL/MySQL用户管理 DCL",
+        "Database/MySQL/MySQL约束",
+        "Database/MySQL/MySQL常用函数",
+        "Database/MySQL/MySQL事务",
+        "Database/MySQL/MySQL存储引擎",
+        "Database/MySQL/MySQL索引",
+        "Database/MySQL/MySQL索引优化",
+        "Database/MySQL/MySQL性能分析",
+        "Database/MySQL/MySQLSQL优化",
+        "Database/MySQL/MySQL视图",
+        "Database/MySQL/MySQL存储过程",
+        "Database/MySQL/MySQL触发器",
+        "Database/MySQL/MySQLInnoDB引擎",
+      ],
+    },
+  ],
+
+  oracleSidebar: [
+    {
+      type: "category",
+      label: "Oracle",
+      items: [
+        "Database/Oracle/Oracle体系结构",
+        "Database/Oracle/Oracle表空间",
+        "Database/Oracle/Oracle表管理",
+      ]
+    }
   ],
 
   toolSidebar: [
@@ -277,6 +329,7 @@ const sidebars: SidebarsConfig = {
         "Linux/Linux任务调度",
         "Linux/Linux磁盘管理",
         "Linux/Linux网络配置",
+        "Linux/Linux进程管理",
       ],
     },
   ],

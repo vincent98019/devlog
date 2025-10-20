@@ -127,7 +127,7 @@ System.out.println("循环结束：" + list.size());
 
 ### 虚引用（PhantomReference）
 
-必须配合引用队列使用，主要配合 `ByteBuffffer` 使用，被引用对象回收时，会将虚引用入队，由 `Reference Handler` 线程调用虚引用相关方法释放**直接内存**
+必须配合引用队列使用，主要配合 `ByteBuffer` 使用，被引用对象回收时，会将虚引用入队，由 `Reference Handler` 线程调用虚引用相关方法释放**直接内存**
 
 > 如上图，B对象不再引用 `ByteBuffer` 对象，`ByteBuffer` 就会被回收。但是直接内存中的内存还未被回收。这时需要将虚引用对象 `Cleaner` 放入引用队列中，然后调用它的 `clean` 方法来释放直接内存。
 

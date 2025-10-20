@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "43ef49623913644f",
+        "id": "8bf3d6d8c65e301c",
         "type": "tabs",
         "children": [
           {
-            "id": "cf6473a8f0a86ec0",
+            "id": "e7d1e6f5f32b985c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/内网穿透与 FRP 配置指南.md",
+                "file": "错误集锦/Win10端口被占用.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "内网穿透与 FRP 配置指南"
+              "title": "Win10端口被占用"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "836cdec520064123",
@@ -170,16 +169,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cf6473a8f0a86ec0",
+  "active": "e7d1e6f5f32b985c",
   "lastOpenFiles": [
+    "Software/SublimeText4设置中文.md",
     "Linux/服务器配置密钥登录.md",
     "Linux/内网穿透与 FRP 配置指南.md",
+    "Linux/ContOS7.6安装.md",
+    "错误集锦/Win10端口被占用.md",
+    "错误集锦/assets/Win10端口被占用/image-20240429115147378.png",
+    "错误集锦/assets/Win10端口被占用/image-20240429115119930.png",
+    "错误集锦/assets/Win10端口被占用/image-20240429115036875.png",
+    "错误集锦/assets/Win10端口被占用/image-20240429115004514.png",
+    "错误集锦/assets/Win10端口被占用/image-20240429114923493.png",
+    "错误集锦/assets/Win10端口被占用/image-20240429114854113.png",
+    "错误集锦/assets/Win10端口被占用",
+    "错误集锦/assets",
+    "错误集锦",
+    "未命名.md",
+    "Linux/assets/ContOS7.6安装/image-20240424142811551.png",
+    "Linux/assets/ContOS7.6安装/image-20240424142603389.png",
+    "Linux/assets/ContOS7.6安装/image-20240424142803543.png",
+    "Linux/assets/ContOS7.6安装/image-20240424142753585.png",
+    "Linux/assets/ContOS7.6安装",
+    "Linux/assets",
     "未命名.base",
+    "2025-10-13.md",
+    "Software/assets/SublimeText4设置中文",
+    "Software/assets",
+    "Software",
     "Linux",
     "2019-05-29-long-blog-post.md",
     "2019-05-28-first-blog-post.md",
-    "2021-08-26-welcome/index.md",
-    "2025-08-22-服务器配置密钥登录",
-    "2021-08-26-welcome/docusaurus-plushie-banner.jpeg"
+    "2021-08-26-welcome/index.md"
   ]
 }
