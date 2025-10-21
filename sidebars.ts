@@ -178,11 +178,6 @@ const sidebars: SidebarsConfig = {
         "Java/常用工具/javap命令使用",
       ],
     },
-    {
-      type: "category",
-      label: "错误集锦",
-      items: ["Java/错误集锦/编码GBK的不可映射字符"],
-    },
   ],
 
   javaJucSidebar: [
@@ -249,6 +244,41 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
+  designSidebar: [
+    {
+      type: "category",
+      label: "设计模式",
+      items: [
+        "design-pattern/设计模式",
+        "design-pattern/UML图",
+      ]
+    },
+    {
+      type: "category",
+      label: "软件设计原则",
+      items: [
+        "design-pattern/软件设计原则/开闭原则",
+      ]
+    },
+    {
+      type: "category",
+      label: "创建者模式",
+      items: [
+        "design-pattern/创建者模式/单例模式",
+        "design-pattern/创建者模式/工厂模式",
+        "design-pattern/创建者模式/建造者模式",
+        "design-pattern/创建者模式/原型模式",
+      ]
+    },
+    {
+      type: "category",
+      label: "行为型模式",
+      items: [
+        "design-pattern/行为型模式/策略模式",
+      ]
+    }
+  ],
+
   mysqlSidebar: [
     {
       type: "category",
@@ -311,6 +341,17 @@ const sidebars: SidebarsConfig = {
         "Tool/Docker/Docker容器操作",
         "Tool/Docker/Docker数据卷操作",
         "Tool/Docker/DockerCompose",
+      ],
+    },
+    {
+      type: "category",
+      label: "VMware",
+      items: [
+        "Tool/VMware/VMware创建虚拟机",
+        "Tool/VMware/VMware虚拟机克隆",
+        "Tool/VMware/VMware虚拟机快照",
+        "Tool/VMware/VMware虚拟机迁移或删除",
+        "Tool/VMware/VMwareTools",
       ],
     },
   ],

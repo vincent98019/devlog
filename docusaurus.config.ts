@@ -118,8 +118,8 @@ const config: Config = {
               to: "/docs/Spring/Spring/Spring概述",
             },
             {
-              label: "错误集锦",
-              to: "/docs/Java/错误集锦/编码GBK的不可映射字符",
+              label: "设计模式",
+              to: "/docs/design-pattern/设计模式",
             },
           ],
         },
@@ -148,6 +148,10 @@ const config: Config = {
             {
               label: "Docker",
               to: "/docs/Tool/Docker/Docker安装与启动",
+            },
+            {
+              label: "VMware",
+              to: "/docs/Tool/VMware/VMware创建虚拟机",
             },
           ],
         },

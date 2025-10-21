@@ -8,5 +8,6 @@
   "userIgnoreFilters": [
     "node_modules/"
   ],
-  "useTab": false
+  "useTab": false,
+  "promptDelete": false
 }

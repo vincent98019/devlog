@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "错误集锦/Win10端口被占用.md",
+                "file": "Java/编码GBK的不可映射字符.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Win10端口被占用"
+              "title": "编码GBK的不可映射字符"
             }
           }
         ]
@@ -171,11 +171,17 @@
   },
   "active": "e7d1e6f5f32b985c",
   "lastOpenFiles": [
+    "错误集锦/Win10端口被占用.md",
+    "Java/编码GBK的不可映射字符.md",
+    "Java/assets/编码GBK的不可映射字符/image-20240516110808526.png",
+    "Java/assets/编码GBK的不可映射字符/image-20240516110755063.png",
+    "Java/assets/编码GBK的不可映射字符",
+    "Java/assets",
+    "Java",
     "Software/SublimeText4设置中文.md",
     "Linux/服务器配置密钥登录.md",
     "Linux/内网穿透与 FRP 配置指南.md",
     "Linux/ContOS7.6安装.md",
-    "错误集锦/Win10端口被占用.md",
     "错误集锦/assets/Win10端口被占用/image-20240429115147378.png",
     "错误集锦/assets/Win10端口被占用/image-20240429115119930.png",
     "错误集锦/assets/Win10端口被占用/image-20240429115036875.png",
@@ -188,16 +194,11 @@
     "未命名.md",
     "Linux/assets/ContOS7.6安装/image-20240424142811551.png",
     "Linux/assets/ContOS7.6安装/image-20240424142603389.png",
-    "Linux/assets/ContOS7.6安装/image-20240424142803543.png",
-    "Linux/assets/ContOS7.6安装/image-20240424142753585.png",
     "Linux/assets/ContOS7.6安装",
     "Linux/assets",
     "未命名.base",
     "2025-10-13.md",
     "Software/assets/SublimeText4设置中文",
-    "Software/assets",
-    "Software",
-    "Linux",
     "2019-05-29-long-blog-post.md",
     "2019-05-28-first-blog-post.md",
     "2021-08-26-welcome/index.md"
