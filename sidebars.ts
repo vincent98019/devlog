@@ -258,6 +258,11 @@ const sidebars: SidebarsConfig = {
       label: "软件设计原则",
       items: [
         "design-pattern/软件设计原则/开闭原则",
+        "design-pattern/软件设计原则/里氏代换原则",
+        "design-pattern/软件设计原则/依赖倒转原则",
+        "design-pattern/软件设计原则/接口隔离原则",
+        "design-pattern/软件设计原则/迪米特法则",
+        "design-pattern/软件设计原则/合成复用原则",
       ]
     },
     {
@@ -275,6 +280,28 @@ const sidebars: SidebarsConfig = {
       label: "行为型模式",
       items: [
         "design-pattern/行为型模式/策略模式",
+        "design-pattern/行为型模式/模板方法模式",
+        "design-pattern/行为型模式/命令模式",
+        "design-pattern/行为型模式/责任链模式",
+        "design-pattern/行为型模式/状态模式",
+        "design-pattern/行为型模式/中介者模式",
+        "design-pattern/行为型模式/迭代器模式",
+        "design-pattern/行为型模式/访问者模式",
+        "design-pattern/行为型模式/备忘录模式",
+        "design-pattern/行为型模式/解释器模式",
+      ]
+    },
+    {
+      type: "category",
+      label: "结构型模式",
+      items: [
+        "design-pattern/结构型模式/代理模式",
+        "design-pattern/结构型模式/适配器模式",
+        "design-pattern/结构型模式/装饰者模式",
+        "design-pattern/结构型模式/桥接模式",
+        "design-pattern/结构型模式/外观模式",
+        "design-pattern/结构型模式/组合模式",
+        "design-pattern/结构型模式/享元模式",
       ]
     }
   ],
