@@ -11,13 +11,32 @@
             "id": "b4a30cc1a6a87f4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "design-pattern/结构型模式/享元模式.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "享元模式"
+            }
+          },
+          {
+            "id": "b4d31938a364ae46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/并发编程/Java线程池.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java线程池"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,53 +186,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "64a8cf59ac4add1f",
+  "active": "b4d31938a364ae46",
   "lastOpenFiles": [
-    "design-pattern/结构型模式/assets/享元模式/09805d14b9d57740a379f66dfb243115_MD5.png",
-    "design-pattern/结构型模式/assets/享元模式/bae1210f9f409d34e153c886c6d43c9f_MD5.png",
-    "design-pattern/结构型模式/assets/享元模式/00628d74868c96d065a98e0f000ff42e_MD5.png",
+    "Java/并发编程/assets/Java线程池/196f5e9edb1230b76fff2fef93984a8f_MD5.jpeg",
+    "Java/并发编程/assets/Java线程池/file-20251026213925811.png",
+    "Java/并发编程/assets/Java线程池/98fac069f033c8ed728d677d6c5e17bd_MD5.jpeg",
+    "Java/并发编程/assets/Java线程池/file-20251026212709013.png",
+    "Java/并发编程/assets/Java线程池/292214145f791b7e15bb480d63a9188a_MD5.jpg",
+    "Java/并发编程/JUC的原子类.md",
+    "Java/并发编程/Java线程池.md",
+    "Java/并发编程/assets/Java线程池/ad72f14cf84fe1b4d8b7a6dfd1253951_MD5.jpeg",
+    "Java/并发编程/assets/Java线程池/file-20251026173006480.png",
+    "Java/并发编程/assets/Java线程池/3643771fe55e2b52cd3c030766808dce_MD5.jpeg",
+    "Java/并发编程/assets/Java线程池/file-20251026172337175.png",
+    "Java/并发编程/Java自定义线程池.md",
+    "Java/并发编程/assets/Java线程池",
+    "Java/并发编程/assets/Java线程池/85cdce6913afdd681752169844cecb38_MD5.jpeg",
+    "Java/并发编程/assets/未命名/file-20251026170705124.png",
+    "Java/并发编程/assets/未命名",
+    "Java/未命名.md",
+    "未命名.md",
+    "Java/并发编程/Java不可变设计.md",
+    "design-pattern/结构型模式/享元模式.md",
+    "@site/docs/design-pattern/结构型模式/享元模式.md",
+    "@site/docs/design-pattern/结构型模式",
+    "@site/docs/design-pattern",
+    "@site/docs",
+    "@site",
+    "@site/docs/advanced/configuration.md",
+    "@site/docs/advanced",
+    "Java/集合/JavaSet.md",
+    "Java/集合/JavaMap.md",
     "design-pattern/结构型模式/assets/享元模式",
     "design-pattern/结构型模式/组合模式.md",
-    "design-pattern/结构型模式/享元模式.md",
-    "design-pattern/结构型模式/assets/组合模式/93dcabb58be3b4a5ca146815737d880c_MD5.png",
-    "design-pattern/结构型模式/assets/组合模式/0a777d6ea5852d900879164f548b77ba_MD5.png",
-    "design-pattern/结构型模式/assets/组合模式/5ebcde3884236fe4bb937aa682404671_MD5.png",
     "design-pattern/结构型模式/assets/组合模式",
     "design-pattern/结构型模式/外观模式.md",
-    "design-pattern/结构型模式/assets/外观模式/67163f6b25767e850c9f4becf1f2d96c_MD5.png",
-    "design-pattern/结构型模式/assets/外观模式/eee3218c793a96b902747b8722f3638c_MD5.png",
-    "design-pattern/结构型模式/assets/外观模式/72869d03d966f65c565406142655a15b_MD5.png",
-    "design-pattern/结构型模式/assets/外观模式/5153090035b9cf5796b85575ba059376_MD5.png",
     "design-pattern/结构型模式/assets/外观模式",
     "design-pattern/结构型模式/桥接模式.md",
-    "design-pattern/结构型模式/assets/桥接模式/3337213740c35213f06759ab80d38aad_MD5.png",
-    "design-pattern/结构型模式/assets/桥接模式",
     "design-pattern/结构型模式/装饰者模式.md",
-    "design-pattern/结构型模式/assets/装饰者模式",
     "design-pattern/结构型模式/适配器模式.md",
-    "design-pattern/结构型模式/assets/适配器模式",
     "design-pattern/结构型模式/代理模式.md",
-    "design-pattern/结构型模式/assets/代理模式",
-    "design-pattern/结构型模式/assets",
     "design-pattern/行为型模式/解释器模式.md",
-    "design-pattern/结构型模式",
-    "design-pattern/行为型模式/assets/解释器模式",
     "design-pattern/行为型模式/备忘录模式.md",
     "design-pattern/行为型模式/访问者模式.md",
     "design-pattern/行为型模式/迭代器模式.md",
     "design-pattern/行为型模式/中介者模式.md",
     "design-pattern/行为型模式/观察者模式.md",
     "design-pattern/行为型模式/状态模式.md",
-    "design-pattern/行为型模式/责任链模式.md",
-    "design-pattern/行为型模式/命令模式.md",
-    "design-pattern/行为型模式/模板方法模式.md",
-    "design-pattern/行为型模式/策略模式.md",
-    "design-pattern/创建者模式/建造者模式.md",
-    "design-pattern/创建者模式/工厂模式.md",
-    "design-pattern/创建者模式/单例模式.md",
-    "design-pattern/软件设计原则/合成复用原则.md",
-    "design-pattern/软件设计原则/迪米特法则.md",
-    "design-pattern/软件设计原则/接口隔离原则.md",
-    "design-pattern/软件设计原则/依赖倒转原则.md"
+    "design-pattern/行为型模式/责任链模式.md"
   ]
 }

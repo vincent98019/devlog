@@ -116,23 +116,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    {
-      type: "category",
-      label: "JVM",
-      items: [
-        "Java/JVM/JVM类文件结构",
-        "Java/JVM/JVM字节码指令",
-        "Java/JVM/JVM编译期处理",
-        "Java/JVM/JVM栈",
-        "Java/JVM/JVM堆",
-        "Java/JVM/JVM方法区",
-        "Java/JVM/JVM直接内存",
-        "Java/JVM/JVM垃圾回收",
-        "Java/JVM/JVM类加载阶段",
-        "Java/JVM/JVM类加载器",
-        "Java/JVM/JVM运行期优化",
-      ],
-    },
+
     {
       type: "category",
       label: "JavaWeb",
@@ -180,6 +164,26 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
+  javaJvmSidebar: [
+    {
+      type: "category",
+      label: "JVM",
+      items: [
+        "Java/JVM/JVM类文件结构",
+        "Java/JVM/JVM字节码指令",
+        "Java/JVM/JVM编译期处理",
+        "Java/JVM/JVM栈",
+        "Java/JVM/JVM堆",
+        "Java/JVM/JVM方法区",
+        "Java/JVM/JVM直接内存",
+        "Java/JVM/JVM垃圾回收",
+        "Java/JVM/JVM类加载阶段",
+        "Java/JVM/JVM类加载器",
+        "Java/JVM/JVM运行期优化",
+      ],
+    },
+  ],
+
   javaJucSidebar: [
     {
       type: "category",
@@ -206,11 +210,15 @@ const sidebars: SidebarsConfig = {
         "Java/并发编程/JUC的原子类",
         "Java/并发编程/JavaLongAdder原理",
         "Java/并发编程/JavaUnsafe类",
+        "Java/并发编程/Java不可变设计",
+        "Java/并发编程/Java自定义线程池",
+        "Java/并发编程/Java线程池",
       ],
     },
   ],
 
 
+  // spring
   springSidebar: [
     {
       type: "category",
@@ -244,6 +252,7 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
+  // 设计模式
   designSidebar: [
     {
       type: "category",
