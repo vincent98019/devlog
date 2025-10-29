@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/并发编程/Java线程池.md",
+                "file": "Database/MySQL/MySQL事务原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java线程池"
+              "title": "MySQL事务原理"
             }
           }
         ],
@@ -188,21 +188,28 @@
   },
   "active": "b4d31938a364ae46",
   "lastOpenFiles": [
-    "Java/并发编程/assets/Java线程池/196f5e9edb1230b76fff2fef93984a8f_MD5.jpeg",
-    "Java/并发编程/assets/Java线程池/file-20251026213925811.png",
-    "Java/并发编程/assets/Java线程池/98fac069f033c8ed728d677d6c5e17bd_MD5.jpeg",
-    "Java/并发编程/assets/Java线程池/file-20251026212709013.png",
-    "Java/并发编程/assets/Java线程池/292214145f791b7e15bb480d63a9188a_MD5.jpg",
-    "Java/并发编程/JUC的原子类.md",
+    "Database/MySQL/assets/MySQL事务原理/c24d14079b3155f26bed7c8cbee2861b_MD5.png",
+    "Database/MySQL/assets/MySQL事务原理/bc9ff5f1314c53d31586a208b03b57f4_MD5.png",
+    "Database/MySQL/assets/MySQL事务原理/0beb1d7fc5bc55f3082d9c63ced456a6_MD5.png",
+    "Database/MySQL/assets/MySQL事务原理",
+    "Database/MySQL/MySQL锁.md",
+    "Database/MySQL/MySQL事务原理.md",
+    "Database/MySQL/assets/MySQL锁/bc27b73d2e6541ab73c46c7580f88e8e_MD5.png",
+    "Database/MySQL/assets/MySQL锁/3cb20918a6bde4538fbc316310e1d8d1_MD5.png",
+    "Database/MySQL/assets/MySQL锁/ce040be6c0605bdf8e0920e8630988da_MD5.png",
+    "Database/MySQL/assets/MySQL锁/fdb81ae3751df40e63c76f568ee0dbd6_MD5.png",
+    "Database/MySQL/assets/MySQL锁/691e4e67795d2602d581226fb753a5c2_MD5.png",
+    "Database/MySQL/assets/MySQL锁/b4b5556c9035b7dc824e48d75779d8df_MD5.png",
+    "Database/MySQL/assets/MySQL锁/d103c84d3246e8e83b71476079abeb03_MD5.png",
+    "Database/MySQL/assets/MySQL锁/9f3be41784151d0bcf55e5ea371a1115_MD5.png",
+    "Database/MySQL/assets/MySQL锁",
+    "Database/MySQL/MySQL体系结构.md",
+    "Database/MySQL/assets/MySQL体系结构",
+    "Database/MySQL/MySQLInnoDB引擎.md",
     "Java/并发编程/Java线程池.md",
-    "Java/并发编程/assets/Java线程池/ad72f14cf84fe1b4d8b7a6dfd1253951_MD5.jpeg",
-    "Java/并发编程/assets/Java线程池/file-20251026173006480.png",
-    "Java/并发编程/assets/Java线程池/3643771fe55e2b52cd3c030766808dce_MD5.jpeg",
-    "Java/并发编程/assets/Java线程池/file-20251026172337175.png",
+    "Java/并发编程/JUC的原子类.md",
     "Java/并发编程/Java自定义线程池.md",
     "Java/并发编程/assets/Java线程池",
-    "Java/并发编程/assets/Java线程池/85cdce6913afdd681752169844cecb38_MD5.jpeg",
-    "Java/并发编程/assets/未命名/file-20251026170705124.png",
     "Java/并发编程/assets/未命名",
     "Java/未命名.md",
     "未命名.md",
@@ -217,11 +224,8 @@
     "@site/docs/advanced",
     "Java/集合/JavaSet.md",
     "Java/集合/JavaMap.md",
-    "design-pattern/结构型模式/assets/享元模式",
     "design-pattern/结构型模式/组合模式.md",
-    "design-pattern/结构型模式/assets/组合模式",
     "design-pattern/结构型模式/外观模式.md",
-    "design-pattern/结构型模式/assets/外观模式",
     "design-pattern/结构型模式/桥接模式.md",
     "design-pattern/结构型模式/装饰者模式.md",
     "design-pattern/结构型模式/适配器模式.md",
@@ -229,10 +233,6 @@
     "design-pattern/行为型模式/解释器模式.md",
     "design-pattern/行为型模式/备忘录模式.md",
     "design-pattern/行为型模式/访问者模式.md",
-    "design-pattern/行为型模式/迭代器模式.md",
-    "design-pattern/行为型模式/中介者模式.md",
-    "design-pattern/行为型模式/观察者模式.md",
-    "design-pattern/行为型模式/状态模式.md",
-    "design-pattern/行为型模式/责任链模式.md"
+    "design-pattern/行为型模式/迭代器模式.md"
   ]
 }
