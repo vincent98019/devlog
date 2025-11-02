@@ -1,7 +1,7 @@
 
 
 
-![](assets/MySQL%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/231203c4e3c9b27267ca25ef1c5b4f87_MD5.png)
+![](assets/MySQL体系结构/231203c4e3c9b27267ca25ef1c5b4f87_MD5.png)
 
 ### 连接层
 

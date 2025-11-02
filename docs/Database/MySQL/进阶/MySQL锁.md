@@ -19,7 +19,7 @@ MySQL中的锁，按照锁的粒度分，分为以下三类：
 
 假设在数据库中有三张表: tb_stock 库存表，tb_order 订单表，tb_orderlog 订单日志表。
 
-![](assets/MySQL%E9%94%81/bc27b73d2e6541ab73c46c7580f88e8e_MD5.png)
+![](assets/MySQL锁/bc27b73d2e6541ab73c46c7580f88e8e_MD5.png)
 
 1. 在进行数据备份时，先备份了tb_stock库存表。
 2. 然后业务系统中，执行了下单操作，扣减库存，生成订单（更新tb_stock表，插入tb_order表）。
@@ -107,11 +107,11 @@ unlock tables / 客户端断开连接
 
 1. 读锁。左侧为客户端一，对指定表加了读锁，不会影响右侧客户端二的读，但是会阻塞右侧客户端的写。
 
-![](assets/MySQL%E9%94%81/71285da4b4966b529b6feeb70b9cfaf0_MD5.png)
+![](assets/MySQL锁/71285da4b4966b529b6feeb70b9cfaf0_MD5.png)
 
 2. 写锁。左侧为客户端一，对指定表加了写锁，会阻塞右侧客户端的读和写。
 
-![](assets/MySQL%E9%94%81/5196f9eb6c2d6099e9e8d3e03b4808d9_MD5.png)
+![](assets/MySQL锁/5196f9eb6c2d6099e9e8d3e03b4808d9_MD5.png)
 
   
 
@@ -156,15 +156,15 @@ select object_type,object_schema,object_name,lock_type,lock_duration from perfor
 
 1. 客户端一开启一个事务，执行DML操作，在执行DML语句时，会对涉及到的行加行锁。
 
-![](assets/MySQL%E9%94%81/3b9d39aa8a8f4a8f1affad2887abb255_MD5.png)
+![](assets/MySQL锁/3b9d39aa8a8f4a8f1affad2887abb255_MD5.png)
 
 2. 当客户端二，想对这张表加表锁时，会检查当前表是否有对应的行锁，如果没有，则添加表锁，会从第一行数据，检查到最后一行数据，效率较低。
 
-![](assets/MySQL%E9%94%81/988c710841bf83d8af505abac6a8e29a_MD5.png)
+![](assets/MySQL锁/988c710841bf83d8af505abac6a8e29a_MD5.png)
 
 3. 有了意向锁之后，客户端一在执行DML操作时，会对涉及的行加行锁，同时也会对该表加上意向锁。其他客户端，对这张表加表锁的时候，会根据该表上所加的意向锁来判定是否可以成功加表锁，而不用逐行判断行锁情况了。
 
-![](assets/MySQL%E9%94%81/373b820aa29d98ef3310cde5d03f8e47_MD5.png)
+![](assets/MySQL锁/373b820aa29d98ef3310cde5d03f8e47_MD5.png)
 
 #### 分类
 
@@ -192,15 +192,15 @@ InnoDB的数据是基于索引组织的，行锁是通过对索引上的索引�
 
 - 行锁（Record Lock），锁定单个行记录的锁，防止其他事务对此行进行update和delete。在RC、RR隔离级别下都支持。
 
-![](assets/MySQL%E9%94%81/9f3be41784151d0bcf55e5ea371a1115_MD5.png)
+![](assets/MySQL锁/9f3be41784151d0bcf55e5ea371a1115_MD5.png)
 
 - 间隙锁（Gap Lock）：锁定索引记录间隙（不含该记录），确保索引记录间隙不变，防止其他事务在这个间隙进行insert，产生幻读。在RR隔离级别下都支持。
 
-![](assets/MySQL%E9%94%81/d103c84d3246e8e83b71476079abeb03_MD5.png)
+![](assets/MySQL锁/d103c84d3246e8e83b71476079abeb03_MD5.png)
 
 - 临键锁（Next-Key Lock）：行锁和间隙锁组合，同时锁住数据，并锁住数据前面的间隙Gap。在RR隔离级别下支持。
 
-![](assets/MySQL%E9%94%81/b4b5556c9035b7dc824e48d75779d8df_MD5.png)
+![](assets/MySQL锁/b4b5556c9035b7dc824e48d75779d8df_MD5.png)
 
   
 
@@ -255,19 +255,19 @@ select object_schema,object_name,index_name,lock_type,lock_mode,lock_data from p
   
 - 索引上的等值查询(唯一索引)，给不存在的记录加锁时, 优化为间隙锁 。
 
-![](assets/MySQL%E9%94%81/fdb81ae3751df40e63c76f568ee0dbd6_MD5.png)
+![](assets/MySQL锁/fdb81ae3751df40e63c76f568ee0dbd6_MD5.png)
 
 -  索引上的等值查询(非唯一普通索引)，向右遍历时最后一个值不满足查询需求时，next-key lock 退化为间隙锁。
 
 InnoDB的B+树索引叶子节点是有序的双向链表。 假如，根据二级索引查询值为18的数据，并加共享锁，因为是非唯一索引，这个结构中可能有多个18的存在，所以在加锁时会继续往后找，找到一个不满足条件的值（当前案例中是29）。此时会对18加临键锁，并对29之前的间隙加锁。
 
-![](assets/MySQL%E9%94%81/691e4e67795d2602d581226fb753a5c2_MD5.png)
+![](assets/MySQL锁/691e4e67795d2602d581226fb753a5c2_MD5.png)
 
-![](assets/MySQL%E9%94%81/ce040be6c0605bdf8e0920e8630988da_MD5.png)
+![](assets/MySQL锁/ce040be6c0605bdf8e0920e8630988da_MD5.png)
 
 - 索引上的范围查询(唯一索引)--会访问到不满足条件的第一个值为止。
 
-![](assets/MySQL%E9%94%81/3cb20918a6bde4538fbc316310e1d8d1_MD5.png)
+![](assets/MySQL锁/3cb20918a6bde4538fbc316310e1d8d1_MD5.png)
 
 查询的条件为id>=19，并添加共享锁。 此时可以根据数据库表中现有的数据，将数据分为三个部分：
 

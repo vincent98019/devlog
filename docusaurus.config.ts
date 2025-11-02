@@ -129,7 +129,7 @@ const config: Config = {
           items: [
             {
               label: "MySQL",
-              to: "/docs/Database/MySQL/MySQL操作数据库 DDL",
+              to: "/docs/Database/MySQL/基础/MySQL操作数据库 DDL",
             },
             {
               label: "Oracle",
