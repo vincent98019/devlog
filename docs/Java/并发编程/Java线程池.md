@@ -96,16 +96,6 @@ public ThreadPoolExecutor(int corePoolSize,
 
 要配置一个线程池是比较复杂的，尤其是对于线程池的原理不是很清楚的情况下，很有可能配置的线程池不是较优的，因此在java.util.concurrent.Executors线程工厂类里面提供了一些静态工厂，生成一些常用的线程池。官方建议使用 Executors工程类来创建线程池对象。
 
-## 线程池里的线程数量
-
-- CPU密集型（加密、计算hash等）：最佳线程数为CPU核心数的1-2倍左右。
-- 耗时IO型（读写数据库、文件、网络读写等）：最佳线程数一般会大于CPU核心数很多倍
-
-参考Brain Goetz推荐的计算方法：
-
-`线程数=CPU核心数 *（1+平均等待时间/平均工作时间）`
-
-
 
 ## 常见线程池
 
@@ -176,6 +166,78 @@ public static ExecutorService newSingleThreadExecutor() {
 
 支持定时及周期性任务执行的线程池
 
+在『任务调度线程池』功能加入之前，可以使用 `java.util.Timer` 来实现定时功能，Timer 的优点在于简单易用，但由于所有任务都是由同一个线程来调度，因此所有任务都是串行执行的，同一时间只能有一个任务在执行，前一个任务的延迟或异常都将会影响到之后的任务。
+
+```java
+public static void main(String[] args) {
+
+    Timer timer = new Timer();
+    TimerTask task1 = new TimerTask() {
+        @Override
+        public void run() {
+            log.debug("task 1");
+            sleep(2);
+        }
+    };
+    
+    TimerTask task2 = new TimerTask() {
+        @Override
+        public void run() {
+            log.debug("task 2");
+        }
+    };
+
+    // 使用 timer 添加两个任务，希望它们都在 1s 后执行
+    // 但由于 timer 内只有一个线程来顺序执行队列中的任务，因此『任务1』的延时，影响了『任务2』的执行
+    timer.schedule(task1, 1000);
+    timer.schedule(task2, 1000);
+}
+```
+
+
+使用 ScheduledExecutorService 改写：
+```java
+ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
+
+// 添加两个任务，希望它们都在 1s 后执行
+executor.schedule(() -> {
+    System.out.println("任务1，执行时间：" + new Date());
+    try { Thread.sleep(2000); } catch (InterruptedException e) { }
+}, 1000, TimeUnit.MILLISECONDS);
+
+executor.schedule(() -> {
+    System.out.println("任务2，执行时间：" + new Date());
+}, 1000, TimeUnit.MILLISECONDS);
+```
+
+
+#### scheduleAtFixedRate
+
+```java
+ScheduledExecutorService pool = Executors.newScheduledThreadPool(1);
+log.debug("start...");
+pool.scheduleAtFixedRate(() -> {
+    log.debug("running...");
+    sleep(2);
+}, 1, 1, TimeUnit.SECONDS);
+```
+
+一开始，延时 1s，接下来，由于任务执行时间 > 间隔时间，间隔被『撑』到了 2s
+
+#### scheduleWithFixedDelay
+
+```java
+ScheduledExecutorService pool = Executors.newScheduledThreadPool(1);
+log.debug("start...");
+pool.scheduleWithFixedDelay(()-> {
+    log.debug("running...");
+    sleep(2);
+}, 1, 1, TimeUnit.SECONDS);
+```
+
+一开始，延时 1s，scheduleWithFixedDelay 的间隔是 上一个任务结束 -> 延时 -> 下一个任务开始 所以间隔都是 3s
+
+> 线程数固定，任务数多于线程数时，会放入无界队列排队。任务执行完毕，这些线程也不会被释放。用来执行延迟或反复执行的任务
 
 ## 提交任务
 
@@ -283,7 +345,29 @@ boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedExceptio
 
 
 
+## 异步模式之工作线程
+
+让有限的工作线程（Worker Thread）来轮流异步处理无限多的任务。也可以将其归类为分工模式，它的典型实现就是线程池，也体现了经典设计模式中的享元模式。
+
+### 创建多少线程池合适
+
+- 过小会导致程序不能充分地利用系统资源、容易导致饥饿
+- 过大会导致更多的线程上下文切换，占用更多内存
+
+#### CPU 密集型运算
+
+通常采用 `cpu 核数 + 1` 能够实现最优的 CPU 利用率，+1 是保证当线程由于页缺失故障（操作系统）或其它原因导致暂停时，额外的这个线程就能顶上去，保证 CPU 时钟周期不被浪费
 
 
+#### I/O 密集型运算
 
+CPU 不总是处于繁忙状态，例如，当你执行业务计算时，这时候会使用 CPU 资源，但当你执行 I/O 操作时、远程RPC 调用时，包括进行数据库操作时，这时候 CPU 就闲下来了，你可以利用多线程提高它的利用率。
 
+经验公式如下
+- `线程数 = 核数 * 期望 CPU 利用率 * 总时间(CPU计算时间+等待时间) / CPU 计算时间`
+
+例如 4 核 CPU 计算时间是 50% ，其它等待时间是 50%，期望 cpu 被 100% 利用，套用公式
+- `4 * 100% * 100% / 50% = 8`
+
+例如 4 核 CPU 计算时间是 10% ，其它等待时间是 90%，期望 cpu 被 100% 利用，套用公式
+- `4 * 100% * 100% / 10% = 40`

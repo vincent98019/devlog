@@ -375,6 +375,10 @@ const sidebars: SidebarsConfig = {
         "Database/Oracle/Oracle体系结构",
         "Database/Oracle/Oracle表空间",
         "Database/Oracle/Oracle表管理",
+        "Database/Oracle/Oracle序列",
+        "Database/Oracle/Oracle函数",
+        "Database/Oracle/Oracle查询",
+        "Database/Oracle/Oracle用户",
       ]
     }
   ],
