@@ -250,6 +250,16 @@ const sidebars: SidebarsConfig = {
         "Spring/SpringMVC/SpringMVC域对象共享数据",
       ],
     },
+    {
+      type: "category",
+      label: "SpringCloudAlibaba",
+      items: [
+        "Spring/SpringCloudAlibaba/Nacos简介&安装",
+        "Spring/SpringCloudAlibaba/Nacos服务注册",
+        "Spring/SpringCloudAlibaba/Nacos服务配置",
+        "Spring/SpringCloudAlibaba/Nacos集群和持久化",
+      ]
+    }
   ],
 
   // 设计模式
