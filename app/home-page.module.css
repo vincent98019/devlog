@@ -42,6 +42,14 @@
     line-height: 1.8;
 }
 
+.note {
+    max-width: 660px;
+    margin: 12px 0 0;
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
 .actions {
     display: flex;
     flex-wrap: wrap;
@@ -227,6 +235,7 @@
     }
 
     .description,
+    .note,
     .sectionNote,
     .cardText,
     .timelineText,

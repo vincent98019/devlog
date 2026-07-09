@@ -7,7 +7,7 @@ ARCHIVE_NAME="${ARCHIVE_NAME:-out.tar.gz}"
 
 npm run build
 
-tar -zcvf "$ARCHIVE_NAME" out/
+COPYFILE_DISABLE=1 tar -zcvf "$ARCHIVE_NAME" out/
 scp "$ARCHIVE_NAME" "$REMOTE_HOST:~"
 
 ssh "$REMOTE_HOST" "

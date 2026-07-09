@@ -42,6 +42,10 @@ const meta: MetaRecord = {
             '网络编程': {
                 title: 'Java网络编程',
                 href: '/Java/网络编程/Java网络通信'
+            },
+            'JavaWeb': {
+                title: 'JavaWeb',
+                href: '/Java/JavaWeb/HTTP'
             }
         }
     },

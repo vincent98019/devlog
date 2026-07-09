@@ -57,6 +57,9 @@ export default function HomePage() {
                         这里记录我学习编程时整理的笔记。它不是一本一次写完的教程，
                         更像一个持续生长的知识库：学到哪里，整理到哪里，之后再回来复盘、补全和重构。
                     </p>
+                    <p className={styles.note}>
+                        这不只是学习笔记，也是一段我回头能看见的来时路。
+                    </p>
                     <div className={styles.actions}>
                         <Link className={styles.primaryAction} href="/Java/基础/Java概述">
                             开始阅读

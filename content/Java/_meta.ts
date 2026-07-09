@@ -19,6 +19,9 @@ const meta: MetaRecord = {
     '网络编程': {
         title: 'Java网络编程',
     },
+    'JavaWeb': {
+        title: 'JavaWeb',
+    },
     'sortspec': {
         display: 'hidden'
     }
