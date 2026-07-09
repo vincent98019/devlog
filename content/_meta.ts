@@ -30,6 +30,10 @@ const meta: MetaRecord = {
             '常用类': {
                 title: '常用类',
                 href: '/Java/常用类/Java方法main'
+            },
+            '集合': {
+                title: '集合',
+                href: '/Java/集合/JavaCollection'
             }
         }
     },
