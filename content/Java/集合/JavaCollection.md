@@ -11,11 +11,11 @@
 
 **单列集合：**
 
-![](assets/JavaCollection/1d64b866630ad376f797481cc7372406_MD5.png)
+![](./assets/JavaCollection/1d64b866630ad376f797481cc7372406_MD5.png)
 
 **双列集合：**
 
-![](assets/JavaCollection/9680c6feee8684716b2c783ee2f73b80_MD5.png)
+![](./assets/JavaCollection/9680c6feee8684716b2c783ee2f73b80_MD5.png)
 
 ## Collection接口
 

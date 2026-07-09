@@ -1,6 +1,6 @@
 import type {Metadata} from 'next'
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
-import {Banner, Head} from 'nextra/components'
+import {Head} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
 import {Search} from 'nextra/components'
 import 'nextra-theme-docs/style.css'
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const navbar = (
     <Navbar
-        logo={<b>Vincent's DevLog</b>}
+        logo={<b>Vincent&apos;s DevLog</b>}
         // ... 你的 navbar 配置
     />
 )
@@ -57,6 +57,7 @@ export default async function RootLayout({
                 content: '有问题？提交反馈'
             }}
             copyPageButton={false}
+            navigation={false}
             themeSwitch={{
                 system: '跟随系统',
                 light: '亮色',

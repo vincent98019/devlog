@@ -101,19 +101,19 @@ public class Demo01ArrayListMethod {
 > ArrayList中维护了一个Object类型的数组elementData
 > **transient**关键字：表示瞬间、短暂的，改属性不会被序列化
 
-![](assets/JavaList/4993685eb2210208b7265dfda264ae00_MD5.png)
+![](./assets/JavaList/4993685eb2210208b7265dfda264ae00_MD5.png)
 
 > 当创建ArrayList对象时，如果使用的是无参构造器，则初始elementData容量为0，第一次添加时，扩容为10，如需再次扩容，则扩容为elementData的1.5倍。
 > ① 当new一个ArrayList对象的时候会进入空参构造，并初始化一个长度为0的空数组。
 > ② 调用add方法时，会先确定是否需要扩容，然后再将元素存入集合中。
 
-![](assets/JavaList/124614db33c011b9fbf2679c690419fb_MD5.png)
+![](./assets/JavaList/124614db33c011b9fbf2679c690419fb_MD5.png)
 
-![](assets/JavaList/6960144f8d2fd5c7e5934374f4515b85_MD5.png)
+![](./assets/JavaList/6960144f8d2fd5c7e5934374f4515b85_MD5.png)
 
 后面再次扩容时，就是按照1.5倍扩容。然后将原数组的数据，使用Arrays.copyOf()方法拷贝到新的数组中。
 
-![](assets/JavaList/a79e568de0bd4d252b0ab8fa42ae93c7_MD5.png)
+![](./assets/JavaList/a79e568de0bd4d252b0ab8fa42ae93c7_MD5.png)
 
 > 如果使用的是指定大小的构造器，则初始elementData容量为指定的大小，如需扩容，则直接扩容elementData的1.5倍。
 > ① 当new一个ArrayList对象的时候会进入有参构造，并初始化一个长度为传入的大小的数组。
@@ -121,7 +121,7 @@ public class Demo01ArrayListMethod {
 
 ## Vector
 
-![](assets/JavaList/6774ecdfbe1843404360a2b7c2ac07c1_MD5.png)
+![](./assets/JavaList/6774ecdfbe1843404360a2b7c2ac07c1_MD5.png)
 
 Vector底层也是一个对象数组，`protected Object[] elementData;`。
 Vector是线程同步的，即线程安全，Vector类的操作方法带有`synchronized`关键字。
@@ -172,7 +172,7 @@ LinkedList中维护了两个属性，`first`和`last`分别指向了首节点和
 
 因为LinkedList的元素添加和删除不是通过数组完成的，所以效率相对来说较高。
 
-![](assets/JavaList/98a5e504e220fda7dfe44ffd57e4a507_MD5.png)
+![](./assets/JavaList/98a5e504e220fda7dfe44ffd57e4a507_MD5.png)
 
 定义一个Node类：
 
@@ -262,37 +262,37 @@ public class LinkedList01 {
 
 当使用空参构造new一个LinkedList时，空参构造是没有语句执行的。
 
-![](assets/JavaList/28ade4cd1612097ad1b3c921516616bb_MD5.png)
+![](./assets/JavaList/28ade4cd1612097ad1b3c921516616bb_MD5.png)
 
 此时，长度为0，第一个节点和最后一个节点都是null。
 
-![](assets/JavaList/36067fa81c72b276256678d4acd9aa5e_MD5.png)
+![](./assets/JavaList/36067fa81c72b276256678d4acd9aa5e_MD5.png)
 
 当程序走到`linkedList.add(1);`时，走的是下面这个方法：
 
-![](assets/JavaList/bf54ef807e8825d69e8c921cd9b0d9c7_MD5.png)
+![](./assets/JavaList/bf54ef807e8825d69e8c921cd9b0d9c7_MD5.png)
 
 进入linkLast方法，进行以下分析：
 
-![](assets/JavaList/87ad12d6595a95966fa8d2da0a2fdcf8_MD5.png)
+![](./assets/JavaList/87ad12d6595a95966fa8d2da0a2fdcf8_MD5.png)
 
 再次执行add方法，新增加一个节点，又会进入linkLast方法：
 
-![](assets/JavaList/78999fa08a3b9c08f362950d48730239_MD5.png)
+![](./assets/JavaList/78999fa08a3b9c08f362950d48730239_MD5.png)
 
 #### remove方法
 
 调用空参的`remove()`方法，会删除链表的第一个节点。
 
-![](assets/JavaList/47f0af4675aa2e60f087621d07643d71_MD5.png)
+![](./assets/JavaList/47f0af4675aa2e60f087621d07643d71_MD5.png)
 
 进入`removeFirst()`方法可以看到，会先判断first节点是否为空(也就是判断是否为空链表)，如果不是空的话，进行删除：
 
-![](assets/JavaList/dd8855eb89744066ba9ff595a8b9c0e1_MD5.png)
+![](./assets/JavaList/dd8855eb89744066ba9ff595a8b9c0e1_MD5.png)
 
 通过分析
 
-![](assets/JavaList/c83b8d68e0979db75a8dbf46313645af_MD5.png)
+![](./assets/JavaList/c83b8d68e0979db75a8dbf46313645af_MD5.png)
 
 ## ArrayList和LinkedList的比较
 

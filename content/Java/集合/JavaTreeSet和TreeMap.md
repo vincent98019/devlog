@@ -23,15 +23,15 @@ treeSet.add("wangwu");
 
 ① 调用的是带有比较器的构造方法，可以看到在内部，new了一个`TreeMap`的对象，并把比较器传给了`TreeMap`。
 
-![](assets/JavaProperties/46fc022c1d763df79c041700735d541c_MD5.png)
+![](./assets/JavaProperties/46fc022c1d763df79c041700735d541c_MD5.png)
 
 ② TreeMap中有一个comparator属性，会将默认的比较器替换为传入的比较器。
 
-![](assets/JavaProperties/e9660c4e6b868d256584c1f9189488f0_MD5.png)
+![](./assets/JavaProperties/e9660c4e6b868d256584c1f9189488f0_MD5.png)
 
 ③ 调用add方法，可以看到，底层调用的是put方法，实际上也是TreeMap的put方法
 
-![](assets/JavaProperties/e1612ee073dbca6bdfab0587892cb125_MD5.png)
+![](./assets/JavaProperties/e1612ee073dbca6bdfab0587892cb125_MD5.png)
 
 ④ 而在put方法中：
 

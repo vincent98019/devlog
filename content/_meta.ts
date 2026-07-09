@@ -24,16 +24,20 @@ const meta: MetaRecord = {
                 href: '/Java/基础/Java概述'
             },
             '面向对象': {
-                title: '面向对象',
+                title: 'Java面向对象',
                 href: '/Java/面向对象/Java类与对象'
             },
             '常用类': {
-                title: '常用类',
+                title: 'Java常用类',
                 href: '/Java/常用类/Java方法main'
             },
             '集合': {
-                title: '集合',
+                title: 'Java集合',
                 href: '/Java/集合/JavaCollection'
+            },
+            'IO流': {
+                title: 'JavaIO流',
+                href: '/Java/IO流/Java类File'
             }
         }
     },

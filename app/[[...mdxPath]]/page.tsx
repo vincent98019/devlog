@@ -1,5 +1,6 @@
 import { generateStaticParamsFor, importPage } from 'nextra/pages'
 import { useMDXComponents as getMDXComponents } from '../../mdx-components'
+import HomePage from '../home-page'
 import type { Metadata } from 'next'
 import type { ComponentType, ReactNode } from 'react'
 
@@ -16,6 +17,13 @@ export async function generateMetadata(
     props: PageProps
 ): Promise<Metadata> {
     const params = await props.params
+    if (!params.mdxPath?.length) {
+        return {
+            title: 'Vincent\'s DevLog',
+            description: '个人编程学习笔记，记录 Java、数据库、Spring 和前端等内容。'
+        }
+    }
+
     const { metadata } = await importPage(params.mdxPath ?? [])
     return metadata as Metadata
 }
@@ -60,6 +68,10 @@ const HeadingOne =
 
 export default async function Page(props: PageProps) {
     const params = await props.params
+
+    if (!params.mdxPath?.length) {
+        return <HomePage />
+    }
 
     const {
         default: MDXContent,
