@@ -174,5 +174,5 @@ Systen.out.printf("%,.2f", 10000.0 / 3.0); // 打印 3,333.33
 String message = String.format("Hello, %s. Next year, you'll be %d", name , age);
 ```
 
-![](assets/Java打印流&标准输入输出/542b9a171b910b7026a622edf0b967a0_MD5.jpg)
+![](./assets/Java打印流&标准输入输出/542b9a171b910b7026a622edf0b967a0_MD5.jpg)
 

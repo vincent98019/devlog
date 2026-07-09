@@ -38,6 +38,10 @@ const meta: MetaRecord = {
             'IO流': {
                 title: 'JavaIO流',
                 href: '/Java/IO流/Java类File'
+            },
+            '网络编程': {
+                title: 'Java网络编程',
+                href: '/Java/网络编程/Java网络通信'
             }
         }
     },

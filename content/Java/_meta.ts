@@ -16,6 +16,9 @@ const meta: MetaRecord = {
     'IO流': {
         title: 'JavaIO流',
     },
+    '网络编程': {
+        title: 'Java网络编程',
+    },
     'sortspec': {
         display: 'hidden'
     }

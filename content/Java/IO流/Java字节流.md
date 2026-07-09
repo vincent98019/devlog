@@ -10,7 +10,7 @@
 * `BufferedInputStream`：缓冲字节输入流
 * `ObjectInputStream`：对象字节输入流
 
-![](assets/Java字节流/562b21057732878d8ef90452e8da964c_MD5.png)
+![](./assets/Java字节流/562b21057732878d8ef90452e8da964c_MD5.png)
 
 
 

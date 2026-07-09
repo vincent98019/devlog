@@ -6,7 +6,7 @@
 * **输入流：** 数据从数据源(文件)到程序(内存)的路径
 * **输出流：** 数据从程序(内存)到数据源(文件)的路径
 
-![](assets/Java类File/ca644769ac5eea5609c6eb7846cff4c8_MD5.png)
+![](./assets/Java类File/ca644769ac5eea5609c6eb7846cff4c8_MD5.png)
 
 
 把数据的传输(如读写文件、网络通迅等)，可以看做是一种数据的流动，按照流动的方向，以内存为基准，分为 `输入input` 和 `输出output` ，即流向内存是输入流，流出内存的输出流。
@@ -49,7 +49,7 @@ Java中I/O操作主要是指使用`java.io` 包下的内容，进行输入、输
 | 输出流           | `OutputStream` | `Writer`     |
 
 
-![](assets/Java类File/3cb8a75ad3d978f590a5e78695f49c62_MD5.png)
+![](./assets/Java类File/3cb8a75ad3d978f590a5e78695f49c62_MD5.png)
 
 
 
@@ -57,17 +57,17 @@ Java中I/O操作主要是指使用`java.io` 包下的内容，进行输入、输
 
 * 节点流可以从一个特定的数据源**读写数据**
 
-![](assets/Java类File/5cc999d3d4f45889077b36346158aad6_MD5.png)
+![](./assets/Java类File/5cc999d3d4f45889077b36346158aad6_MD5.png)
 
 
 * 处理流(**包装流**)是“连接”在已存在的流(节点流或处理流)之上，为程序提供更加强大的读写功能，如`BufferedReader`、`BufferedWriter`
 
-![](assets/Java类File/af3006eddf020e5cf732d30aac351b6f_MD5.png)
+![](./assets/Java类File/af3006eddf020e5cf732d30aac351b6f_MD5.png)
 
 
 > 比如，`BufferedReader` 继承自`Reader` 类，同时内部有个`Reader`类型的属性`in` ，该属性可以封装任意一个`Reader` 类型的子类，可以操作不同的数据源，只要是`Reader` 的子类
 
-![](assets/Java类File/4737d520fc432ccffbf68f5e7fc73536_MD5.png)
+![](./assets/Java类File/4737d520fc432ccffbf68f5e7fc73536_MD5.png)
 
 
 |  **分类**  |            | **字节输入流**           | **字节输出流**            | **字符输入流**      | **字符输出流**       |
