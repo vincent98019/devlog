@@ -1,0 +1,24 @@
+---
+sorting-spec: |-
+  Java类与对象
+  Java方法
+  Java包
+  Java权限修饰符
+  Java封装
+  Java继承
+  Java多态
+  Java关键字super
+  Java关键字static
+  Java代码块
+  Java关键字final
+  Java抽象abstract
+  Java接口interface
+  Java内部类
+  Java枚举Enum
+  Java注解
+  Java异常
+  Java泛型
+  Java反射
+  sortspec
+  assets
+---
