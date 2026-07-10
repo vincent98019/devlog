@@ -26,6 +26,10 @@ const meta: MetaRecord = {
             'JavaWeb': {
                 title: 'JavaWeb',
                 href: '/Java/JavaWeb/HTTP'
+            },
+            'Java常用组件': {
+                title: 'Java常用组件',
+                href: '/Java/Java常用组件/JDBC'
             }
         }
     },

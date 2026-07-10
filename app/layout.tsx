@@ -3,6 +3,7 @@ import {Footer, Layout, Navbar} from 'nextra-theme-docs'
 import {Head} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
 import {Search} from 'nextra/components'
+import SidebarActiveLink from './sidebar-active-link'
 import 'nextra-theme-docs/style.css'
 
 export const metadata: Metadata = {
@@ -51,6 +52,7 @@ export default async function RootLayout({
             {/* 自定义 meta / link / script */}
         </Head>
         <body>
+        <SidebarActiveLink/>
         <Layout
             editLink=''
             feedback={{
@@ -58,6 +60,12 @@ export default async function RootLayout({
             }}
             copyPageButton={false}
             navigation={false}
+            sidebar={{
+                autoCollapse: true,
+                defaultMenuCollapseLevel: 1,
+                defaultOpen: true,
+                toggleButton: true
+            }}
             themeSwitch={{
                 system: '跟随系统',
                 light: '亮色',
