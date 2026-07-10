@@ -21,7 +21,7 @@ const meta: MetaRecord = {
         items: {
             'Java基础': {
                 title: 'Java基础',
-                href: '/Java/Java基础/基础/Java概述'
+                href: '/Java/基础/Java概述'
             },
             'JavaWeb': {
                 title: 'JavaWeb',
@@ -29,7 +29,7 @@ const meta: MetaRecord = {
             },
             'Java常用组件': {
                 title: 'Java常用组件',
-                href: '/Java/Java常用组件/JDBC'
+                href: '/Java/常用组件/JDBC'
             }
         }
     },

@@ -1,9 +1,8 @@
 import type {Metadata} from 'next'
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
-import {Head} from 'nextra/components'
+import {Banner, Head} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
 import {Search} from 'nextra/components'
-import SidebarActiveLink from './sidebar-active-link'
 import 'nextra-theme-docs/style.css'
 
 export const metadata: Metadata = {
@@ -52,7 +51,6 @@ export default async function RootLayout({
             {/* 自定义 meta / link / script */}
         </Head>
         <body>
-        <SidebarActiveLink/>
         <Layout
             editLink=''
             feedback={{
