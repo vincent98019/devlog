@@ -1,6 +1,6 @@
 import type {Metadata} from 'next'
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
-import {Banner, Head} from 'nextra/components'
+import {Head} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
 import {Search} from 'nextra/components'
 import 'nextra-theme-docs/style.css'

@@ -1,11 +1,11 @@
 import type {MetaRecord} from 'nextra'
 
 const meta: MetaRecord = {
-    // '*': {
-    //   theme: {
-    //     copyPage: false
-    //   }
-    // },
+    '*': {
+        theme: {
+            pagination: false
+        }
+    },
     'index': {
         title: 'Home',
         type: 'page',
