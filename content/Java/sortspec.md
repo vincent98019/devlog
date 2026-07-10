@@ -8,5 +8,6 @@ sorting-spec: |-
   网络编程
   JavaWeb
   常用组件
+  Java8新特性
   sortspec
 ---

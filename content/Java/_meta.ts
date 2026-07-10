@@ -25,6 +25,12 @@ const meta: MetaRecord = {
     '常用组件': {
         title: 'Java常用组件',
     },
+    'Java8新特性': {
+        title: 'Java8新特性',
+    },
+    'JVM': {
+        title: 'JVM',
+    },
     'sortspec': {
         display: 'hidden'
     }

@@ -30,6 +30,14 @@ const meta: MetaRecord = {
             'Java常用组件': {
                 title: 'Java常用组件',
                 href: '/Java/常用组件/JDBC'
+            },
+            'Java新特性': {
+                title: 'Java新特性',
+                href: '/Java/Java8新特性/Java8Stream流'
+            },
+            'JVM': {
+                title: 'JVM',
+                href: '/Java/JVM/JVM类文件结构'
             }
         }
     },

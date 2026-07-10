@@ -142,4 +142,4 @@ Comparator<Integer> com = (x, y) -> Integer.compare(x, y);
 
 上述 Lambda 表达式中的参数类型都是由编译器推断得出的。Lambda表达式中无需指定类型，程序依然可以编译，这是因为 javac 根据程序的上下文，在后台推断出了参数的类型。Lambda 表达式的类型依赖于上下文环境，是由编译器推断出来的。这就是所谓的“类型推断”。
 
-![](assets/Java8Lambda表达式/7483b2fb61ee25cc9f591e86a53e7950_MD5.png)
+![](./assets/Java8Lambda表达式/7483b2fb61ee25cc9f591e86a53e7950_MD5.png)

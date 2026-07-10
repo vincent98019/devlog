@@ -85,7 +85,7 @@ public class Demo03StreamFilter {
 
 整体来看，流式思想类似于工厂车间的“生产流水线”。当需要对多个元素进行操作（特别是多步操作）的时候，考虑到性能及便利性，应该首先拼好一个“模型”步骤方案，然后再按照方案去执行它。
 
-![](assets/Java8Stream流/7782a2ae2ada9f2d612cced91d1b8ee0_MD5.png)
+![](./assets/Java8Stream流/7782a2ae2ada9f2d612cced91d1b8ee0_MD5.png)
 
 
 这张图中展示了过滤、映射、跳过、计数等多步操作，这是一种集合元素的处理方案，而方案就是一种“函数模型”。图中的每一个方框都是一个“流”，调用指定的方法，可以从一个流模型转换为另一个流模型。而最右侧的数字3是最终结果。  
@@ -120,7 +120,7 @@ Stream（流）是一个来自数据源的元素队列
 2. 中间操作：一个中间操作链，对数据源的数据进行处理
 3. 终止操作(终端操作)：一旦执行终止操作，就执行中间操作链，并产生结果。之后，不会再被使用
 
-![](assets/Java8Stream流/35b726679399af4e5e89e38bdb158872_MD5.png)
+![](./assets/Java8Stream流/35b726679399af4e5e89e38bdb158872_MD5.png)
 
 
 
@@ -248,7 +248,7 @@ Stream<T> filter(Predicate<? super T> predicate);
 
 该接口接收一个 Predicate 函数式接口参数（可以是一个Lambda或方法引用）作为筛选条件。
 
-![](assets/Java8Stream流/329fe4feac24d507893aa7b1da93b5b4_MD5.png)
+![](./assets/Java8Stream流/329fe4feac24d507893aa7b1da93b5b4_MD5.png)
 
 
 `java.util.stream.Predicate`函数式接口，其中唯一的抽象方法为：
@@ -340,7 +340,7 @@ public class Demo11StreamSkip {
 
 该接口需要一个 Function 函数式接口参数，可以将当前流中的T类型数据转换为另一种R类型的流。
 
-![](assets/Java8Stream流/efdc43d9d834299ac4aff7c2b0070e5a_MD5.png)
+![](./assets/Java8Stream流/efdc43d9d834299ac4aff7c2b0070e5a_MD5.png)
 
 
 `java.util.stream.Function`函数式接口，其中唯一的抽象方法为：
