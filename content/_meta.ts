@@ -38,6 +38,10 @@ const meta: MetaRecord = {
             'JVM': {
                 title: 'JVM',
                 href: '/Java/JVM/JVM类文件结构'
+            },
+            '并发编程': {
+                title: '并发编程',
+                href: '/Java/并发编程/Java进程与线程'
             }
         }
     },

@@ -31,6 +31,9 @@ const meta: MetaRecord = {
     'JVM': {
         title: 'JVM',
     },
+    '并发编程': {
+        title: '并发编程',
+    },
     'sortspec': {
         display: 'hidden'
     }
